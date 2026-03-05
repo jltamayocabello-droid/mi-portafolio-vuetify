@@ -1,19 +1,18 @@
 /**
- * router/index.ts
+ * router/index.js
  *
- * Manual routes for ./src/pages/*.vue
+ * Application router
  */
 
 // Composables
 import { createRouter, createWebHistory } from 'vue-router'
-import Index from '@/pages/index.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      component: Index,
+      component: () => import('@/App.vue'),
     },
   ],
 })

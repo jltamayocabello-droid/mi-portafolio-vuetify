@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <!-- Contenido principal -->
     </v-main>
     <v-btn
       class="ma-2"
@@ -13,6 +13,5 @@
   </v-app>
 </template>
 
-<script lang="ts" setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+<script setup>
 </script>
