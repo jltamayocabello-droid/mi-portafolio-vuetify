@@ -1,0 +1,89 @@
+# ============================
+# Node / NPM
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ============================
+# Build output
+# ============================
+dist/
+dist-ssr/
+build/
+.output/
+
+# ============================
+# Vite
+# ============================
+*.local
+vite.config.ts.timestamp-*
+vite.config.mts.timestamp-*
+
+# ============================
+# TypeScript
+# ============================
+*.tsbuildinfo
+
+# ============================
+# Environment variables
+# ============================
+.env
+.env.*
+!.env.example
+!.env.template
+
+# ============================
+# Editores e IDEs
+# ============================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# ============================
+# Sistema operativo
+# ============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================
+# Logs y temporales
+# ============================
+logs/
+*.log
+tmp/
+temp/
+.cache/
+.temp/
+
+# ============================
+# Coverage / Tests
+# ============================
+coverage/
+.nyc_output/
+cypress/screenshots/
+cypress/videos/
+
+# ============================
+# Misc
+# ============================
+*.zip
+*.tar.gz
+*.rar
