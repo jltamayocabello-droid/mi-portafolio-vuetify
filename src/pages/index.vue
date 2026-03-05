@@ -235,7 +235,6 @@
 
   const projects = [
     {
-      emoji: '🚀',
       title: '🚀 Product Showcase SPA',
       challenge:
         'Se requería construir una interfaz rápida y escalable para mostrar un catálogo de productos obteniendo datos en tiempo real de una API externa, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.',
@@ -252,7 +251,6 @@
       repo: 'https://github.com/jltamayocabello-droid',
     },
     {
-      emoji: '📚',
       title: '📚 Booklist SPA',
       challenge:
         'Se requería construir una interfaz rápida y escalable para gestionar un catálogo bibliográfico dinámico, permitiendo a los usuarios buscar, filtrar y registrar libros en tiempo real, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.',
@@ -267,7 +265,6 @@
       repo: 'https://github.com/jltamayocabello-droid',
     },
     {
-      emoji: '💰',
       title: '💰 SmartBudget',
       challenge:
         'Se requería construir una interfaz rápida, escalable y visualmente atractiva para visualizar finanzas personales, asegurando que la experiencia del usuario (UX) fuera impecable en cualquier dispositivo (Mobile First) y sin tiempos de carga pesados.',

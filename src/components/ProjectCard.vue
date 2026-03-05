@@ -54,13 +54,34 @@
 </template>
 
 <script setup>
-  defineProps([
-    'title',
-    'challenge',
-    'decisions',
-    'tags',
-    'image',
-    'demo',
-    'repo',
-  ])
+  defineProps({
+    title: {
+      type: String,
+      required: true,
+    },
+    challenge: {
+      type: String,
+      required: true,
+    },
+    decisions: {
+      type: Array,
+      required: true,
+    },
+    tags: {
+      type: Array,
+      required: true,
+    },
+    image: {
+      type: String,
+      required: true,
+    },
+    demo: {
+      type: String,
+      default: null,
+    },
+    repo: {
+      type: String,
+      default: null,
+    },
+  })
 </script>

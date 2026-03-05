@@ -1,12 +1,11 @@
-import { createPinia } from 'pinia'
-import router from '../router'
-
 /**
  * plugins/index.js
  *
  * Automatically included in `./src/main.js`
  */
 
+import { createPinia } from 'pinia'
+import router from '../router'
 // Plugins
 import vuetify from './vuetify'
 
