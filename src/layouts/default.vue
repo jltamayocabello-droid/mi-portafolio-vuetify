@@ -1,12 +1,12 @@
 <template>
   <v-app>
-    <v-app-bar flat border color="background">
+    <v-app-bar border color="background" flat>
       <v-container class="d-flex align-center">
         <v-app-bar-title class="font-weight-bold">JT.DEV</v-app-bar-title>
-        <v-spacer></v-spacer>
-        <v-btn variant="text" to="/">Inicio</v-btn>
-        <v-btn variant="text" href="#proyectos">Proyectos</v-btn>
-        <v-btn variant="text" icon="mdi-linkedin" href="https://linkedin.com/in/tu-perfil" target="_blank"></v-btn>
+        <v-spacer />
+        <v-btn to="/" variant="text">Inicio</v-btn>
+        <v-btn href="#proyectos" variant="text">Proyectos</v-btn>
+        <v-btn href="https://linkedin.com/in/tu-perfil" icon="mdi-linkedin" target="_blank" variant="text" />
       </v-container>
     </v-app-bar>
 

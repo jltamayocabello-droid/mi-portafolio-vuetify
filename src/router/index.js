@@ -12,7 +12,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      component: () => import('@/App.vue'),
+      component: () => import('@/pages/index.vue'),
     },
   ],
 })

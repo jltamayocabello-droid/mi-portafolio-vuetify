@@ -1,10 +1,10 @@
+import { createVuetify } from 'vuetify'
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
-import { createVuetify } from 'vuetify'
 
 export default createVuetify({
   theme: {
-    defaultTheme: 'dark', // 🌙 Esto activa el modo oscuro por defecto
+    defaultTheme: 'dark',
     themes: {
       dark: {
         colors: {
@@ -12,6 +12,7 @@ export default createVuetify({
           surface: '#1E1E1E', // Gris oscuro para tarjetas
           primary: '#4FC08D', // Verde Vue
           secondary: '#ffe162', // Amarillo Pinia
+          error: '#f44336',
         },
       },
     },
