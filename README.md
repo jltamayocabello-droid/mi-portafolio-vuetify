@@ -16,6 +16,12 @@
 
 </div>
 
+<div align="center">
+
+![Portfolio Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ6dWF5dDZtdmRtbzZqeHJyNjZ5MXc3cWN5bHM2NzEydW95bGI0aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif)
+
+</div>
+
 ---
 
 ## 📋 Concepto: The Digital Product
@@ -42,7 +48,15 @@ Se requería construir una interfaz rápida y escalable para mostrar un catálog
 | **Axios**                   | Utilicé interceptores para el manejo global de errores HTTP, evitando código repetitivo en cada llamada.                                                |
 | **Performance**             | Implementé Lazy Loading de rutas y optimización de assets, reduciendo el bundle inicial.                                                                |
 
-`Vue 3` `Pinia` `Firebase` `Vuetify` `Vite`
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat-square&logo=vue.js&logoColor=white)](#)
+[![Pinia](https://img.shields.io/badge/Pinia-store-FFE162?style=flat-square&logoColor=black)](#)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](#)
+[![Vuetify](https://img.shields.io/badge/Vuetify-3.x-1867C0?style=flat-square&logo=vuetify&logoColor=white)](#)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](#)
+
+<br>
+
+🚀 [Demo en Vivo](#) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid)
 
 ---
 
@@ -59,7 +73,15 @@ Se requería construir una interfaz rápida y escalable para gestionar un catál
 | **Pinia**                   | Centralicé el listado de libros en un store único, lo que facilitó la reactividad entre múltiples componentes sin prop drilling. |
 | **Performance**             | Optimicé el rendimiento evitando renderizados innecesarios en el DOM mediante `v-memo` y watchers controlados.                   |
 
-`Vue 3` `Pinia` `Vue Router 4` `Vite` `Vercel`
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat-square&logo=vue.js&logoColor=white)](#)
+[![Pinia](https://img.shields.io/badge/Pinia-store-FFE162?style=flat-square&logoColor=black)](#)
+[![Vue Router](https://img.shields.io/badge/Vue_Router-4-4FC08D?style=flat-square&logo=vue.js&logoColor=white)](#)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](#)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square&logo=vercel&logoColor=white)](#)
+
+<br>
+
+🚀 [Demo en Vivo](#) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid)
 
 ---
 
@@ -76,7 +98,15 @@ Se requería construir una interfaz rápida, escalable y visualmente atractiva p
 | **Bootstrap 5** | Utilicé el sistema de grillas estratégicamente para acelerar el desarrollo responsivo y asegurar compatibilidad entre navegadores.                                 |
 | **Performance** | Comprimí estilos y eliminé renderizados innecesarios, reduciendo drásticamente el consumo de recursos en dispositivos móviles.                                     |
 
-`SASS` `BEM` `Bootstrap 5` `Flexbox` `CSS Grid`
+[![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white)](#)
+[![BEM](https://img.shields.io/badge/BEM-Methodology-000000?style=flat-square)](#)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=flat-square&logo=bootstrap&logoColor=white)](#)
+[![CSS Grid](https://img.shields.io/badge/CSS_Grid-Layout-1572B6?style=flat-square&logo=css3&logoColor=white)](#)
+[![Flexbox](https://img.shields.io/badge/Flexbox-Layout-1572B6?style=flat-square&logo=css3&logoColor=white)](#)
+
+<br>
+
+🚀 [Demo en Vivo](#) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid)
 
 ---
 
@@ -107,32 +137,6 @@ Routing
 
 ---
 
-## ⚡ Guía de Instalación
-
-Cualquier desarrollador puede tener el proyecto corriendo en menos de 2 minutos:
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/jltamayocabello-droid/mi-portafolio-vuetify.git
-cd mi-portafolio-vuetify
-
-# 2. Instalar dependencias
-npm install
-
-# 3. Correr en modo desarrollo (con HMR)
-npm run dev
-
-# 4. Compilar para producción
-npm run build
-
-# 5. Verificar calidad de código
-npm run lint
-```
-
-El servidor de desarrollo estará disponible en: **http://localhost:3000**
-
----
-
 ## 🚀 Deployment & DevOps
 
 ### Plataforma de Despliegue
@@ -140,18 +144,6 @@ El servidor de desarrollo estará disponible en: **http://localhost:3000**
 El proyecto está configurado para desplegarse en **[Vercel](https://vercel.com/)**, aprovechando su integración nativa con repositorios de GitHub para CI/CD automático en cada push a `main`.
 
 > ⚙️ _Enlace al deployment en vivo próximamente disponible._
-
-### Variables de Entorno
-
-Las variables sensibles (API keys, endpoints) se gestionan mediante archivos `.env` locales y se configuran como **Environment Variables** en el panel de Vercel para producción. El archivo `.env.example` documenta las variables requeridas sin exponer valores reales.
-
-```bash
-# Ejemplo de estructura .env
-VITE_API_BASE_URL=https://api.example.com
-VITE_FIREBASE_API_KEY=tu_api_key
-```
-
-> 🔒 **Nota de seguridad:** El archivo `.env` está incluido en `.gitignore` y nunca se commitea al repositorio.
 
 ---
 
@@ -178,5 +170,3 @@ mi-portafolio-vuetify/
 ## 📝 Licencia
 
 [MIT](http://opensource.org/licenses/MIT) © 2026 Jorge Tamayo
-
--
