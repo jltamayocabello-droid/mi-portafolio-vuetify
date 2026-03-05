@@ -7,6 +7,7 @@
         <v-btn to="/" variant="text">Inicio</v-btn>
         <v-btn href="#proyectos" variant="text">Proyectos</v-btn>
         <v-btn href="https://linkedin.com/in/tu-perfil" icon="mdi-linkedin" target="_blank" variant="text" />
+        <v-btn href="https://github.com/jltamayocabello-droid" icon="mdi-github" target="_blank" variant="text" />
       </v-container>
     </v-app-bar>
 
