@@ -148,10 +148,13 @@
                 v-for="point in differentiators"
                 :key="point"
                 base-color="primary"
-                class="px-0"
+                class="px-0 align-start"
                 prepend-icon="mdi-check-circle"
-                :title="point"
-              />
+              >
+                <v-list-item-title class="text-wrap">
+                  {{ point }}
+                </v-list-item-title>
+              </v-list-item>
             </v-list>
           </div>
         </v-col>
