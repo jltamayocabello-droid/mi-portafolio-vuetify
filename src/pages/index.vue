@@ -25,19 +25,11 @@
       <h1 class="text-h3 text-sm-h2 font-weight-black mb-4 hero-title">
         Jorge <span class="text-primary">Tamayo</span>
       </h1>
+      <v-divider class="my-4" color="primary" thickness="2" width="50%" />
 
-      <p
-        class="text-h6 text-medium-emphasis font-weight-regular mb-6 hero-subtitle"
-      >
-        Transformando requerimientos complejos en<br
-          class="d-none d-sm-block"
-        >
-        <strong class="text-white">interfaces intuitivas y eficientes</strong>
-        con Vue.js
-      </p>
-
-      <div class="d-flex flex-wrap gap-3 justify-center mb-10">
+      <div class="d-flex flex-wrap gap-3 justify-center mt-4 mb-10">
         <v-btn
+          class="me-4"
           color="primary"
           href="#proyectos"
           prepend-icon="mdi-rocket-launch"
@@ -48,6 +40,7 @@
           Ver Proyectos
         </v-btn>
         <v-btn
+          class="me-4"
           href="https://github.com/jltamayocabello-droid"
           prepend-icon="mdi-github"
           rounded="lg"
@@ -58,6 +51,7 @@
           GitHub
         </v-btn>
         <v-btn
+          class="me-4"
           color="primary"
           href="https://linkedin.com/in/jorge-tamayo"
           prepend-icon="mdi-linkedin"
