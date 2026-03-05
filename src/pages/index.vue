@@ -25,6 +25,12 @@
       <h1 class="text-h3 text-sm-h2 font-weight-black mb-4 hero-title">
         Jorge <span class="text-primary">Tamayo</span>
       </h1>
+      <p class="text-h5 text-sm-h4 font-weight-black mb-4 hero-title">
+        Desarrollador Front-End
+      </p>
+      <p class="text-h5 text-sm-h4 font-weight-black mb-4 hero-title">
+        Historiador e Investigador independiente | Asistente de biblioteca
+      </p>
       <v-divider class="my-4" color="primary" thickness="2" width="50%" />
 
       <div class="d-flex flex-wrap gap-3 justify-center mt-4 mb-10">
