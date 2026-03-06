@@ -135,7 +135,7 @@
                 size="default"
                 variant="tonal"
               >
-                <v-icon v-if="skill.icon" :icon="skill.icon" start />
+                <v-icon :icon="skill.icon" start />
                 {{ skill.name }}
               </v-chip>
             </div>
@@ -258,9 +258,9 @@
             </v-card-item>
             <v-card-text>
               <p class="text-body-2 text-medium-emphasis">
-                Programa bootcamp intensivo de formación en el ecosistema moderno
-                de desarrollo Front-End: Vue 3, Pinia, Vuetify 3, Vite, SASS, BEM,
-                Git y Deploy en plataformas cloud.
+                Programa bootcamp intensivo de formación en el ecosistema
+                moderno de desarrollo Front-End: Vue 3, Pinia, Vuetify 3, Vite,
+                SASS, BEM, Git y Deploy en plataformas cloud.
               </p>
             </v-card-text>
           </v-card>
@@ -401,26 +401,30 @@
 
   const skills = [
     { name: 'Vue 3', color: 'primary', icon: 'mdi-vuejs' },
-    { name: 'Pinia', color: 'secondary', icon: null },
-    { name: 'Vuetify 3', color: 'primary', icon: null },
-    { name: 'Vue Router 4', color: 'primary', icon: null },
+    { name: 'Pinia', color: 'secondary', icon: 'mdi-pine-tree' },
+    { name: 'Vuetify 3', color: 'primary', icon: 'mdi-palette-swatch' },
+    { name: 'Vue Router 4', color: 'primary', icon: 'mdi-router' },
     { name: 'Vite', color: 'secondary', icon: 'mdi-lightning-bolt' },
-    { name: 'SASS', color: 'pink', icon: null },
-    { name: 'BEM', color: 'grey', icon: null },
+    { name: 'SASS', color: 'pink', icon: 'mdi-sass' },
+    { name: 'BEM', color: 'grey', icon: 'mdi-code-braces-box' },
     { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
-    { name: 'Bootstrap 5', color: 'purple', icon: null },
+    { name: 'Bootstrap 5', color: 'purple', icon: 'mdi-bootstrap' },
     { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
-    { name: 'Gemini', color: 'blue', icon: 'mdi-gemini' },
-    { name: 'Perplexity', color: 'green', icon: 'mdi-perplexity' },
-    { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-copilot' },
-    { name: 'Alma (Ex Libris)', color: 'green', icon: 'mdi-alma' },
-    { name: 'Ex Libris Leganto', color: 'green', icon: 'mdi-leganto' },
-    { name: 'Zotero', color: 'green', icon: 'mdi-zotero' },
-    { name: 'Microsoft 365', color: 'orange', icon: 'mdi-365' },
-    { name: 'Microsoft Access', color: 'orange', icon: 'mdi-access' },
-    { name: 'Adobe Photoshop', color: 'green', icon: 'mdi-photoshop' },
-    { name: 'Adobe Illustrator', color: 'primary', icon: 'mdi-illustrator' },
-    { name: 'Adobe Indesign', color: 'primary', icon: 'mdi-indesign' },
+    { name: 'Gemini', color: 'blue', icon: 'mdi-creation' },
+    { name: 'Perplexity', color: 'green', icon: 'mdi-head-lightbulb' },
+    { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-robot-outline' },
+    { name: 'Alma (Ex Libris)', color: 'green', icon: 'mdi-bookshelf' },
+    {
+      name: 'Ex Libris Leganto',
+      color: 'green',
+      icon: 'mdi-book-open-page-variant',
+    },
+    { name: 'Zotero', color: 'green', icon: 'mdi-bookmark-multiple' },
+    { name: 'Microsoft 365', color: 'orange', icon: 'mdi-microsoft' },
+    { name: 'Microsoft Access', color: 'orange', icon: 'mdi-database' },
+    { name: 'Adobe Photoshop', color: 'green', icon: 'mdi-image-edit' },
+    { name: 'Adobe Illustrator', color: 'primary', icon: 'mdi-draw' },
+    { name: 'Adobe Indesign', color: 'primary', icon: 'mdi-book-open-variant' },
   ]
 
   const differentiators = [
@@ -500,7 +504,8 @@
     {
       title: 'Asistente de Atención de Usuarios y Gestión de Colecciones',
       institution: 'Biblioteca Gauss, Pontificia Universidad Católica de Chile',
-      description: 'Gestión integral de colecciones y atención directa a usuarios mediante procesos de catalogación, clasificación y control de inventarios físicos y digitales. Administración del ciclo de adquisición, circulación y bibliografías mínimas, con soporte técnico en catálogos y bases de datos, junto con la generación de informes estadísticos para optimizar la disponibilidad y preservación del material.',
+      description:
+        'Gestión integral de colecciones y atención directa a usuarios mediante procesos de catalogación, clasificación y control de inventarios físicos y digitales. Administración del ciclo de adquisición, circulación y bibliografías mínimas, con soporte técnico en catálogos y bases de datos, junto con la generación de informes estadísticos para optimizar la disponibilidad y preservación del material.',
       years: '2018–2024',
       color: 'primary',
     },
@@ -514,8 +519,10 @@
     },
     {
       title: 'Asistente de Atención de Usuarios',
-      institution: 'Biblioteca Campus Oriente, Pontificia Universidad Católica de Chile',
-      description: 'Responsable de la gestión integral de circulación y atención al usuario, ejecutando procesos de préstamo, devolución y catalogación básica de colecciones.',
+      institution:
+        'Biblioteca Campus Oriente, Pontificia Universidad Católica de Chile',
+      description:
+        'Responsable de la gestión integral de circulación y atención al usuario, ejecutando procesos de préstamo, devolución y catalogación básica de colecciones.',
       years: '2016–2017',
       color: 'primary',
     },
@@ -531,7 +538,8 @@
     {
       title: 'Ayudante de Investigación',
       institution: 'Programa de Historia de las Ideas Políticas en Chile, UDP',
-      description: 'Asistente de Investigación en el área de historia de las ideas políticas, responsable del análisis de la evolución institucional y debates públicos de los siglos XIX y XX. Ejecución de tareas de recopilación, sistematización de fuentes primarias y análisis cualitativo/cuantitativo para la comprensión del pensamiento político y la esfera pública chilena.',
+      description:
+        'Asistente de Investigación en el área de historia de las ideas políticas, responsable del análisis de la evolución institucional y debates públicos de los siglos XIX y XX. Ejecución de tareas de recopilación, sistematización de fuentes primarias y análisis cualitativo/cuantitativo para la comprensión del pensamiento político y la esfera pública chilena.',
       years: '2010–2012',
       color: 'primary',
     },
@@ -605,7 +613,8 @@
     {
       year: '2021',
       title: 'Taller de Historia Local y Memoria',
-      provider: 'Memorias de la Río, Núcleo de historia social popular y autoeducación popular, Universidad de Chile',
+      provider:
+        'Memorias de la Río, Núcleo de historia social popular y autoeducación popular, Universidad de Chile',
       color: 'grey',
     },
     {
