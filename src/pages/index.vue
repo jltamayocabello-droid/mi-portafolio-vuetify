@@ -59,7 +59,7 @@
         <v-btn
           class="me-4"
           color="primary"
-          href="https://linkedin.com/in/jorge-tamayo"
+          href="https://www.linkedin.com/in/jorge-tamayo-c/"
           prepend-icon="mdi-linkedin"
           rounded="lg"
           size="large"
@@ -433,8 +433,8 @@ const projects = [
     tags: ["Vue 3", "Pinia", "Firebase", "Vuetify", "Vite"],
     image:
       "https://placehold.co/800x450/1E1E1E/4FC08D?text=Product+Showcase+SPA",
-    demo: "https://github.com/jltamayocabello-droid",
-    repo: "https://github.com/jltamayocabello-droid",
+    demo: "https://product-showcase-vue.netlify.app/",
+    repo: "https://github.com/jltamayocabello-droid/m7_abp_product-showcase",
   },
   {
     title: "📚 Booklist SPA",
@@ -447,8 +447,8 @@ const projects = [
     ],
     tags: ["Vue 3", "Pinia", "Vue Router 4", "Vite", "Vercel"],
     image: "https://placehold.co/800x450/1E1E1E/ffe162?text=Booklist+SPA",
-    demo: "https://github.com/jltamayocabello-droid",
-    repo: "https://github.com/jltamayocabello-droid",
+    demo: "https://m6-abp-booklist-spa.vercel.app/",
+    repo: "https://github.com/jltamayocabello-droid/m6_abp_booklist-spa",
   },
   {
     title: "💰 SmartBudget",
@@ -461,8 +461,8 @@ const projects = [
     ],
     tags: ["SASS", "BEM", "Bootstrap 5", "Flexbox", "CSS Grid"],
     image: "https://placehold.co/800x450/1E1E1E/4FC08D?text=SmartBudget",
-    demo: "https://github.com/jltamayocabello-droid",
-    repo: "https://github.com/jltamayocabello-droid",
+    demo: "https://jltamayocabello-droid.github.io/m3-abp-smartbudget/",
+    repo: "https://github.com/jltamayocabello-droid/m3-abp-smartbudget",
   },
 ];
 

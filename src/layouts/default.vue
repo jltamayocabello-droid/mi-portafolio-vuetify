@@ -13,7 +13,7 @@
           Proyectos Destacados
         </v-btn>
         <v-btn
-          href="https://linkedin.com/in/tu-perfil"
+          href="https://www.linkedin.com/in/jorge-tamayo-c/"
           icon="mdi-linkedin"
           target="_blank"
           variant="text"
