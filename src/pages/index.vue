@@ -507,10 +507,10 @@
   ]
 
   const differentiators = [
-    'Composition API + Composables para lógica reutilizable',
-    'Gestión de estado eficiente con Pinia',
-    'Diseño Mobile First con sobriedad digital',
-    'Código limpio, modular y escalable',
+    'Lógica reutilizable y mantenible mediante Composition API y Composables, reduciendo la deuda técnica.',
+    'Gestión de flujos de datos centralizados y eficientes, optimizando la reactividad.',
+    'Desarrollo basado en sobriedad digital, priorizando el alto rendimiento y la eficiencia de recursos.',
+    'Estándares de Clean Code para entregar productos escalables, limpios y fáciles de testear.',
   ]
 
   const projects = [
