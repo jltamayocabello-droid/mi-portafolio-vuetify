@@ -7,7 +7,7 @@
   >
     <v-img cover height="250" :src="image" />
 
-    <v-card-item>
+    <v-card-item class="ms-2 mx-2 mt-2 md-2">
       <v-card-title class="text-h5 text-primary">{{ title }}</v-card-title>
       <div class="d-flex gap-2 mt-2">
         <v-chip
@@ -23,17 +23,23 @@
       </div>
     </v-card-item>
 
-    <v-card-text class="flex-grow-1">
+    <v-card-text class="flex-grow-1 ms-2 mx-2 mt-2 md-2">
       <div class="mb-4">
         <strong class="text-white">El Desafío:</strong>
-        <p class="text-body-2 text-medium-emphasis challenge-clamp">
+        <p
+          class="text-body-2 text-medium-emphasis challenge-clamp text-justify"
+        >
           {{ challenge }}
         </p>
       </div>
       <v-expansion-panels variant="accordion">
         <v-expansion-panel bg-color="surface" title="Decisiones Técnicas">
           <v-expansion-panel-text class="text-caption">
-            <p v-for="(decision, i) in decisions" :key="i" class="mb-2">
+            <p
+              v-for="(decision, i) in decisions"
+              :key="i"
+              class="mb-2 text-justify"
+            >
               • {{ decision }}
             </p>
           </v-expansion-panel-text>

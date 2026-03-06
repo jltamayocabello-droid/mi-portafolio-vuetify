@@ -102,13 +102,15 @@
             elevation="4"
             rounded="xl"
           >
-            <div class="d-flex flex-column align-center ga-4">
+            <div
+              class="d-flex flex-column align-center ga-4 ms-4 mx-4 mt-4 mb-4"
+            >
               <img
                 alt="Coding animation"
                 class="about-gif rounded-lg"
                 src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ6dWF5dDZtdmRtbzZqeHJyNjZ5MXc3cWN5bHM2NzEydW95bGI0aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif"
               >
-              <div>
+              <div class="text-justify">
                 <p class="text-body-1 text-medium-emphasis mb-4">
                   Desarrollador Front-End especializado en el ecosistema
                   <strong class="text-primary">Vue.js</strong> con un perfil
@@ -131,86 +133,88 @@
         </v-col>
 
         <v-col cols="12" md="6">
-          <div class="section-header mb-6">
+          <div class="section-header mb-6 ms-4 mx-4 mt-4 mb-4">
             <h3 class="text-h6 font-weight-bold mb-4">
               <v-icon class="mr-2" color="primary" icon="mdi-tools" />
               Stack Técnico
             </h3>
 
-            <p class="text-caption text-medium-emphasis mb-2">
-              <v-icon class="mr-1" icon="mdi-code-braces" size="14" />
-              Desarrollo
-            </p>
-            <div class="d-flex flex-wrap gap-2 mb-4">
-              <v-chip
-                v-for="skill in devSkills"
-                :key="skill.name"
-                class="font-weight-medium"
-                :color="skill.color"
-                size="default"
-                variant="tonal"
-              >
-                <v-icon :icon="skill.icon" start />
-                {{ skill.name }}
-              </v-chip>
-            </div>
+            <div class="mx-4 ms-12">
+              <p class="text-caption text-medium-emphasis mb-2">
+                <v-icon class="mr-1" icon="mdi-code-braces" size="14" />
+                Desarrollo
+              </p>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <v-chip
+                  v-for="skill in devSkills"
+                  :key="skill.name"
+                  class="font-weight-medium"
+                  :color="skill.color"
+                  size="default"
+                  variant="tonal"
+                >
+                  <v-icon :icon="skill.icon" start />
+                  {{ skill.name }}
+                </v-chip>
+              </div>
 
-            <p class="text-caption text-medium-emphasis mb-2">
-              <v-icon class="mr-1" icon="mdi-bookshelf" size="14" />
-              Bibliotecología & Gestión
-            </p>
-            <div class="d-flex flex-wrap gap-2 mb-4">
-              <v-chip
-                v-for="skill in librarySkills"
-                :key="skill.name"
-                class="font-weight-medium"
-                :color="skill.color"
-                size="default"
-                variant="tonal"
-              >
-                <v-icon :icon="skill.icon" start />
-                {{ skill.name }}
-              </v-chip>
-            </div>
+              <p class="text-caption text-medium-emphasis mb-2">
+                <v-icon class="mr-1" icon="mdi-bookshelf" size="14" />
+                Bibliotecología & Gestión
+              </p>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <v-chip
+                  v-for="skill in librarySkills"
+                  :key="skill.name"
+                  class="font-weight-medium"
+                  :color="skill.color"
+                  size="default"
+                  variant="tonal"
+                >
+                  <v-icon :icon="skill.icon" start />
+                  {{ skill.name }}
+                </v-chip>
+              </div>
 
-            <p class="text-caption text-medium-emphasis mb-2">
-              <v-icon class="mr-1" icon="mdi-palette" size="14" />
-              Diseño
-            </p>
-            <div class="d-flex flex-wrap gap-2 mb-4">
-              <v-chip
-                v-for="skill in designSkills"
-                :key="skill.name"
-                class="font-weight-medium"
-                :color="skill.color"
-                size="default"
-                variant="tonal"
-              >
-                <v-icon :icon="skill.icon" start />
-                {{ skill.name }}
-              </v-chip>
-            </div>
+              <p class="text-caption text-medium-emphasis mb-2">
+                <v-icon class="mr-1" icon="mdi-palette" size="14" />
+                Diseño
+              </p>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <v-chip
+                  v-for="skill in designSkills"
+                  :key="skill.name"
+                  class="font-weight-medium"
+                  :color="skill.color"
+                  size="default"
+                  variant="tonal"
+                >
+                  <v-icon :icon="skill.icon" start />
+                  {{ skill.name }}
+                </v-chip>
+              </div>
 
-            <p class="text-caption text-medium-emphasis mb-2">
-              <v-icon class="mr-1" icon="mdi-robot-outline" size="14" />
-              Herramientas IA
-            </p>
-            <div class="d-flex flex-wrap gap-2">
-              <v-chip
-                v-for="skill in aiSkills"
-                :key="skill.name"
-                class="font-weight-medium"
-                :color="skill.color"
-                size="default"
-                variant="tonal"
-              >
-                <v-icon :icon="skill.icon" start />
-                {{ skill.name }}
-              </v-chip>
+              <p class="text-caption text-medium-emphasis mb-2">
+                <v-icon class="mr-1" icon="mdi-robot-outline" size="14" />
+                Herramientas IA
+              </p>
+              <div class="d-flex flex-wrap gap-2">
+                <v-chip
+                  v-for="skill in aiSkills"
+                  :key="skill.name"
+                  class="font-weight-medium"
+                  :color="skill.color"
+                  size="default"
+                  variant="tonal"
+                >
+                  <v-icon :icon="skill.icon" start />
+                  {{ skill.name }}
+                </v-chip>
+              </div>
             </div>
           </div>
 
-          <div>
+          <div class="ms-4 mx-4">
             <h3 class="text-h6 font-weight-bold mb-4">
               <v-icon class="mr-2" color="secondary" icon="mdi-star" />
               Lo que me diferencia
@@ -237,7 +241,7 @@
   <!-- ===========================
        PROJECTS SECTION
   ============================ -->
-  <section id="proyectos" class="projects-section py-16">
+  <section id="proyectos" class="projects-section py-4">
     <v-container>
       <div class="section-header text-center mb-12">
         <v-chip class="mb-4" color="primary" size="small" variant="tonal">
@@ -421,7 +425,9 @@
                       <p class="text-caption text-secondary mb-1">
                         {{ job.institution }}
                       </p>
-                      <p class="text-caption text-medium-emphasis mb-0">
+                      <p
+                        class="text-caption text-medium-emphasis mb-0 text-justify"
+                      >
                         {{ job.description }}
                       </p>
                     </div>
