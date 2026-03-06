@@ -103,16 +103,19 @@
             rounded="xl"
           >
             <p class="text-body-1 text-medium-emphasis mb-4">
-              Desarrollador Front-End con vocación por crear experiencias
-              digitales elegantes y performantes. Me especializo en el
-              ecosistema <strong class="text-primary">Vue.js</strong>, aplicando
-              buenas prácticas de arquitectura y diseño centrado en el usuario.
+              Desarrollador Front-End especializado en el ecosistema
+              <strong class="text-primary">Vue.js</strong> con un perfil
+              altamente versátil. Mi sólida trayectoria en investigación y
+              gestión documental me permite abordar problemas técnicos con rigor
+              analítico, creando arquitecturas limpias y estructuradas.
             </p>
             <p class="text-body-1 text-medium-emphasis">
-              Apasionado por la
-              <strong class="text-secondary">optimización</strong>, la sobriedad
-              digital y el código limpio que escala. Creo que la mejor interfaz
-              es la que el usuario no nota, porque simplemente funciona.
+              Acostumbrado a la excelencia en el servicio al usuario, enfoco mis
+              desarrollos en la empatía y la usabilidad. Soy un profesional en
+              constante formación, comprometido con la
+              <strong class="text-secondary">sobriedad digital</strong> y la
+              creación de experiencias digitales elegantes y performantes que
+              resuelvan necesidades reales con máxima eficiencia.
             </p>
           </v-card>
         </v-col>
@@ -210,78 +213,392 @@
         </v-col>
       </v-row>
     </v-container>
+
+    <!-- ===========================
+       EDUCATION & EXPERIENCE
+  ============================ -->
+    <section id="formacion" class="education-section py-16">
+      <v-container>
+        <div class="section-header text-center mb-12">
+          <v-chip class="mb-4" color="secondary" size="small" variant="tonal">
+            <v-icon icon="mdi-school" start />
+            Trayectoria
+          </v-chip>
+          <h2 class="text-h4 font-weight-bold">Formación & Experiencia</h2>
+          <p class="text-body-1 text-medium-emphasis mt-2">
+            Un perfil interdisciplinario con sólida base en humanidades, gestión
+            del conocimiento y tecnología.
+          </p>
+        </div>
+
+        <!-- FORMACIÓN TECH -->
+        <div class="text-center mb-10">
+          <v-chip class="mb-6" color="primary" size="default" variant="tonal">
+            <v-icon icon="mdi-code-braces" start />
+            Formación Tecnológica
+          </v-chip>
+          <v-card
+            class="mx-auto pa-6"
+            color="surface"
+            elevation="8"
+            max-width="600"
+            rounded="xl"
+            style="border: 1px solid rgba(79, 192, 141, 0.3)"
+          >
+            <v-card-item>
+              <template #prepend>
+                <v-avatar color="primary" rounded="lg" size="48">
+                  <v-icon icon="mdi-vuejs" size="28" />
+                </v-avatar>
+              </template>
+              <v-card-title class="text-h6 font-weight-bold text-primary">
+                Desarrollo de Aplicaciones Front-End Trainee
+              </v-card-title>
+              <v-card-subtitle class="mt-1"> SENCE · 2026 </v-card-subtitle>
+            </v-card-item>
+            <v-card-text>
+              <p class="text-body-2 text-medium-emphasis">
+                Programa intensivo de formación en el ecosistema moderno de
+                desarrollo Front-End: Vue 3, Pinia, Vuetify 3, Vite, SASS, BEM,
+                Git y Deploy en plataformas cloud.
+              </p>
+            </v-card-text>
+          </v-card>
+        </div>
+
+        <v-row>
+          <!-- FORMACIÓN ACADÉMICA -->
+          <v-col cols="12" md="6">
+            <div class="mb-6">
+              <v-chip
+                class="mb-6"
+                color="secondary"
+                size="small"
+                variant="tonal"
+              >
+                <v-icon icon="mdi-book-open-variant" start />
+                Formación Académica
+              </v-chip>
+            </div>
+            <v-timeline align="start" density="compact" side="end">
+              <v-timeline-item
+                v-for="edu in academicBackground"
+                :key="edu.title"
+                :dot-color="edu.color"
+                size="small"
+              >
+                <template #opposite>
+                  <span class="text-caption text-medium-emphasis">{{
+                    edu.years
+                  }}</span>
+                </template>
+                <v-card
+                  class="education-card pa-4"
+                  color="surface"
+                  elevation="2"
+                  rounded="lg"
+                >
+                  <h4 class="text-body-1 font-weight-bold">{{ edu.title }}</h4>
+                  <p class="text-caption text-medium-emphasis mb-0">
+                    {{ edu.institution }}
+                  </p>
+                </v-card>
+              </v-timeline-item>
+            </v-timeline>
+          </v-col>
+
+          <!-- EXPERIENCIA LABORAL -->
+          <v-col cols="12" md="6">
+            <div class="mb-6">
+              <v-chip class="mb-6" color="primary" size="small" variant="tonal">
+                <v-icon icon="mdi-briefcase-outline" start />
+                Experiencia Laboral
+              </v-chip>
+            </div>
+            <v-timeline align="start" density="compact" side="end">
+              <v-timeline-item
+                v-for="job in workExperience"
+                :key="job.title + job.years"
+                :dot-color="job.color"
+                size="small"
+              >
+                <template #opposite>
+                  <span class="text-caption text-medium-emphasis">{{
+                    job.years
+                  }}</span>
+                </template>
+                <v-card
+                  class="education-card pa-4"
+                  color="surface"
+                  elevation="2"
+                  rounded="lg"
+                >
+                  <h4 class="text-body-1 font-weight-bold">{{ job.title }}</h4>
+                  <p class="text-caption text-secondary mb-1">
+                    {{ job.institution }}
+                  </p>
+                  <p class="text-caption text-medium-emphasis mb-0">
+                    {{ job.description }}
+                  </p>
+                </v-card>
+              </v-timeline-item>
+            </v-timeline>
+          </v-col>
+        </v-row>
+
+        <!-- CURSOS Y CERTIFICACIONES -->
+        <div class="mt-12 mb-12 py-12">
+          <div class="text-center mb-8">
+            <h3 class="text-h5 font-weight-bold">Aprendizaje Continuo</h3>
+            <v-chip class="mb-4" color="secondary" size="small" variant="tonal">
+              <v-icon icon="mdi-certificate-outline" start />
+              Cursos & Certificaciones
+            </v-chip>
+          </div>
+          <v-row justify="center">
+            <v-col
+              v-for="course in courses"
+              :key="course.title"
+              cols="12"
+              lg="4"
+              md="6"
+            >
+              <v-card
+                class="pa-4 h-100 course-card"
+                color="surface"
+                elevation="2"
+                rounded="lg"
+              >
+                <div class="d-flex align-start gap-3">
+                  <v-chip
+                    class="flex-shrink-0 mt-1"
+                    :color="course.color"
+                    size="x-small"
+                    variant="tonal"
+                  >
+                    {{ course.year }}
+                  </v-chip>
+                  <div>
+                    <p class="text-body-2 font-weight-medium mb-1">
+                      {{ course.title }}
+                    </p>
+                    <p class="text-caption text-medium-emphasis mb-0">
+                      {{ course.provider }}
+                    </p>
+                  </div>
+                </div>
+              </v-card>
+            </v-col>
+          </v-row>
+        </div>
+      </v-container>
+    </section>
   </section>
 </template>
 
 <script setup>
-  import ProjectCard from '@/components/ProjectCard.vue'
+import ProjectCard from "@/components/ProjectCard.vue";
 
-  const skills = [
-    { name: 'Vue 3', color: 'primary', icon: 'mdi-vuejs' },
-    { name: 'Pinia', color: 'secondary', icon: null },
-    { name: 'Vuetify 3', color: 'primary', icon: null },
-    { name: 'Vue Router 4', color: 'primary', icon: null },
-    { name: 'Vite', color: 'secondary', icon: 'mdi-lightning-bolt' },
-    { name: 'SASS', color: 'pink', icon: null },
-    { name: 'BEM', color: 'grey', icon: null },
-    { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
-    { name: 'Bootstrap 5', color: 'purple', icon: null },
-    { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
-  ]
+const skills = [
+  { name: "Vue 3", color: "primary", icon: "mdi-vuejs" },
+  { name: "Pinia", color: "secondary", icon: null },
+  { name: "Vuetify 3", color: "primary", icon: null },
+  { name: "Vue Router 4", color: "primary", icon: null },
+  { name: "Vite", color: "secondary", icon: "mdi-lightning-bolt" },
+  { name: "SASS", color: "pink", icon: null },
+  { name: "BEM", color: "grey", icon: null },
+  { name: "Firebase", color: "orange", icon: "mdi-firebase" },
+  { name: "Bootstrap 5", color: "purple", icon: null },
+  { name: "Git & GitHub", color: "grey", icon: "mdi-github" },
+];
 
-  const differentiators = [
-    'Composition API + Composables para lógica reutilizable',
-    'Gestión de estado eficiente con Pinia',
-    'Diseño Mobile First con sobriedad digital',
-    'Código limpio, modular y escalable',
-  ]
+const differentiators = [
+  "Composition API + Composables para lógica reutilizable",
+  "Gestión de estado eficiente con Pinia",
+  "Diseño Mobile First con sobriedad digital",
+  "Código limpio, modular y escalable",
+];
 
-  const projects = [
-    {
-      title: '🚀 Product Showcase SPA',
-      challenge:
-        'Se requería construir una interfaz rápida y escalable para mostrar un catálogo de productos obteniendo datos en tiempo real de una API externa, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.',
-      decisions: [
-        'Vue 3 (Composition API): Elegido para mejorar la modularidad del código y reutilizar la lógica de llamadas a la API mediante Composables.',
-        'Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API y la eliminación de mutaciones innecesarias, logrando un código más limpio y eficiente.',
-        'Axios / Firebase: Utilizado para el consumo de datos y la API REST, implementando interceptores para el manejo global de errores.',
-        'Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.',
-      ],
-      tags: ['Vue 3', 'Pinia', 'Firebase', 'Vuetify', 'Vite'],
-      image:
-        'https://placehold.co/800x450/1E1E1E/4FC08D?text=Product+Showcase+SPA',
-      demo: 'https://github.com/jltamayocabello-droid',
-      repo: 'https://github.com/jltamayocabello-droid',
-    },
-    {
-      title: '📚 Booklist SPA',
-      challenge:
-        'Se requería construir una interfaz rápida y escalable para gestionar un catálogo bibliográfico dinámico, permitiendo a los usuarios buscar, filtrar y registrar libros en tiempo real, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.',
-      decisions: [
-        'Vue 3 (Composition API): Elegido para mejorar la modularidad del código y manejar la lógica compleja de filtrado y búsqueda mediante Composables, separando la vista de la lógica de negocio.',
-        'Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API, logrando un estado centralizado mucho más limpio y eficiente para el listado de libros.',
-        'Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.',
-      ],
-      tags: ['Vue 3', 'Pinia', 'Vue Router 4', 'Vite', 'Vercel'],
-      image: 'https://placehold.co/800x450/1E1E1E/ffe162?text=Booklist+SPA',
-      demo: 'https://github.com/jltamayocabello-droid',
-      repo: 'https://github.com/jltamayocabello-droid',
-    },
-    {
-      title: '💰 SmartBudget',
-      challenge:
-        'Se requería construir una interfaz rápida, escalable y visualmente atractiva para visualizar finanzas personales, asegurando que la experiencia del usuario (UX) fuera impecable en cualquier dispositivo (Mobile First) y sin tiempos de carga pesados.',
-      decisions: [
-        'SASS y BEM: Elegidos para mantener una arquitectura CSS modular, semántica y libre de colisiones. La metodología BEM permitió crear bloques de componentes altamente reutilizables.',
-        'Bootstrap 5: Utilizado estratégicamente para el sistema de grillas base, acelerando el desarrollo responsivo y asegurando la compatibilidad entre navegadores.',
-        'Sobriedad Digital: Optimización del peso de assets, comprimiendo estilos y evitando renderizados innecesarios, reduciendo drásticamente el consumo de recursos en dispositivos móviles.',
-      ],
-      tags: ['SASS', 'BEM', 'Bootstrap 5', 'Flexbox', 'CSS Grid'],
-      image: 'https://placehold.co/800x450/1E1E1E/4FC08D?text=SmartBudget',
-      demo: 'https://github.com/jltamayocabello-droid',
-      repo: 'https://github.com/jltamayocabello-droid',
-    },
-  ]
+const projects = [
+  {
+    title: "🚀 Product Showcase SPA",
+    challenge:
+      "Se requería construir una interfaz rápida y escalable para mostrar un catálogo de productos obteniendo datos en tiempo real de una API externa, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.",
+    decisions: [
+      "Vue 3 (Composition API): Elegido para mejorar la modularidad del código y reutilizar la lógica de llamadas a la API mediante Composables.",
+      "Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API y la eliminación de mutaciones innecesarias, logrando un código más limpio y eficiente.",
+      "Axios / Firebase: Utilizado para el consumo de datos y la API REST, implementando interceptores para el manejo global de errores.",
+      "Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.",
+    ],
+    tags: ["Vue 3", "Pinia", "Firebase", "Vuetify", "Vite"],
+    image:
+      "https://placehold.co/800x450/1E1E1E/4FC08D?text=Product+Showcase+SPA",
+    demo: "https://github.com/jltamayocabello-droid",
+    repo: "https://github.com/jltamayocabello-droid",
+  },
+  {
+    title: "📚 Booklist SPA",
+    challenge:
+      "Se requería construir una interfaz rápida y escalable para gestionar un catálogo bibliográfico dinámico, permitiendo a los usuarios buscar, filtrar y registrar libros en tiempo real, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.",
+    decisions: [
+      "Vue 3 (Composition API): Elegido para mejorar la modularidad del código y manejar la lógica compleja de filtrado y búsqueda mediante Composables, separando la vista de la lógica de negocio.",
+      "Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API, logrando un estado centralizado mucho más limpio y eficiente para el listado de libros.",
+      "Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.",
+    ],
+    tags: ["Vue 3", "Pinia", "Vue Router 4", "Vite", "Vercel"],
+    image: "https://placehold.co/800x450/1E1E1E/ffe162?text=Booklist+SPA",
+    demo: "https://github.com/jltamayocabello-droid",
+    repo: "https://github.com/jltamayocabello-droid",
+  },
+  {
+    title: "💰 SmartBudget",
+    challenge:
+      "Se requería construir una interfaz rápida, escalable y visualmente atractiva para visualizar finanzas personales, asegurando que la experiencia del usuario (UX) fuera impecable en cualquier dispositivo (Mobile First) y sin tiempos de carga pesados.",
+    decisions: [
+      "SASS y BEM: Elegidos para mantener una arquitectura CSS modular, semántica y libre de colisiones. La metodología BEM permitió crear bloques de componentes altamente reutilizables.",
+      "Bootstrap 5: Utilizado estratégicamente para el sistema de grillas base, acelerando el desarrollo responsivo y asegurando la compatibilidad entre navegadores.",
+      "Sobriedad Digital: Optimización del peso de assets, comprimiendo estilos y evitando renderizados innecesarios, reduciendo drásticamente el consumo de recursos en dispositivos móviles.",
+    ],
+    tags: ["SASS", "BEM", "Bootstrap 5", "Flexbox", "CSS Grid"],
+    image: "https://placehold.co/800x450/1E1E1E/4FC08D?text=SmartBudget",
+    demo: "https://github.com/jltamayocabello-droid",
+    repo: "https://github.com/jltamayocabello-droid",
+  },
+];
+
+const academicBackground = [
+  {
+    title: "Diplomado de Honores en Pensamiento Contemporáneo",
+    institution: "Instituto de Humanidades, Universidad Diego Portales (UDP)",
+    years: "2011",
+    color: "secondary",
+  },
+  {
+    title: "Licenciatura en Historia",
+    institution: "Universidad Diego Portales (UDP)",
+    years: "2008–2011",
+    color: "secondary",
+  },
+];
+
+const workExperience = [
+  {
+    title: "Asistente de Atención de Usuarios y Gestión de Colecciones",
+    institution: "Biblioteca Gauss, Pontificia Universidad Católica de Chile",
+    description: "Gestión de colecciones y atención a usuarios",
+    years: "2018–2024",
+    color: "primary",
+  },
+  {
+    title: "Asesorías y Orientación Metodológica",
+    institution: "Taller de Investigación Social",
+    description:
+      "Asesorías y orientación metodológica para tesistas e investigadores",
+    years: "2017–2018",
+    color: "primary",
+  },
+  {
+    title: "Asistente de Edición de Textos y Transcripciones",
+    institution:
+      "Trabajo para Bernabé Santelices (Premio Nacional de Ciencias Naturales 2012)",
+    description:
+      "Transcripción, preparación de textos (ISO/APA) y encuadernación",
+    years: "2016–2017",
+    color: "primary",
+  },
+  {
+    title: "Ayudante de Investigación",
+    institution: "Programa de Historia de las Ideas Políticas en Chile, UDP",
+    description: "Ayudante de investigación",
+    years: "2010–2012",
+    color: "primary",
+  },
+  {
+    title: "Documentación y Catalogación de Fotografías",
+    institution: "Centro Nacional Fotográfico (CENFOTO), UDP",
+    description:
+      "Documentación y catalogación de fotografías y álbumes (2008) en el contexto de la Licenciatura en Historia",
+    years: "Jul–Dic 2010",
+    color: "grey",
+  },
+  {
+    title: "Documentación de Colecciones Audiovisuales",
+    institution: "Museo de la Educación Gabriela Mistral (MEGM)",
+    description:
+      "Documentación de colecciones del fondo audiovisual (Cineteca Nacional) en el contexto de la Licenciatura en Historia",
+    years: "Mar–Jun 2011",
+    color: "grey",
+  },
+];
+
+const courses = [
+  {
+    year: "2025",
+    title: "Inmersión IA con Google Gemini",
+    provider: "Alura · Google",
+    color: "primary",
+  },
+  {
+    year: "2025",
+    title: "Aprende Data Science: Cuenta Historias con los Datos",
+    provider: "Microsoft · LinkedIn",
+    color: "secondary",
+  },
+  {
+    year: "2025",
+    title: "Aprende Data Science: Conceptos Básicos",
+    provider: "Microsoft · LinkedIn",
+    color: "secondary",
+  },
+  {
+    year: "2025",
+    title: "Aprende Análisis de Datos: Ampliación y Aplicación",
+    provider: "Microsoft · LinkedIn",
+    color: "secondary",
+  },
+  {
+    year: "2025",
+    title: "Aprende Análisis de Datos: Fundamentos",
+    provider: "Microsoft · LinkedIn",
+    color: "secondary",
+  },
+  {
+    year: "2025",
+    title: "Introducción a las Habilidades Profesionales en Análisis de Datos",
+    provider: "Microsoft · LinkedIn",
+    color: "secondary",
+  },
+  {
+    year: "2021",
+    title: "MOOC: Diseño y Formulación de Proyectos para Bibliotecas",
+    provider: "UNIACC",
+    color: "grey",
+  },
+  {
+    year: "2021",
+    title: "Bases de Datos: Access",
+    provider: "Coursera · Universitat Autónoma de Barcelona",
+    color: "grey",
+  },
+  {
+    year: "2021",
+    title: "Herramientas de Ofimática",
+    provider: "Coursera · Universitat Autónoma de Barcelona",
+    color: "grey",
+  },
+  {
+    year: "2021",
+    title: "Conceptos y Herramientas Básicas (Comp. Digitales)",
+    provider: "Coursera · Universitat Autónoma de Barcelona",
+    color: "grey",
+  },
+  {
+    year: "2021",
+    title: "Photoshop desde Cero",
+    provider: "SASI · VGroup",
+    color: "grey",
+  },
+];
 </script>
 
 <style scoped>
