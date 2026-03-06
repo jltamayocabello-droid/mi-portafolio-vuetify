@@ -12,7 +12,7 @@
 
 ---
 
-🚀 [Portafolio] https://mi-portafolio-vuetify.vercel.app/
+🚀 [Portafolio] (https://mi-portafolio-vuetify.vercel.app/)
 📂 [Repositorio](https://github.com/jltamayocabello-droid/mi-portafolio-vuetify) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/jorge-tamayo-c/)
 
 </div>
