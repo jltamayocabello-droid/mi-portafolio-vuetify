@@ -397,208 +397,208 @@
 </template>
 
 <script setup>
-import ProjectCard from "@/components/ProjectCard.vue";
+  import ProjectCard from '@/components/ProjectCard.vue'
 
-const skills = [
-  { name: "Vue 3", color: "primary", icon: "mdi-vuejs" },
-  { name: "Pinia", color: "secondary", icon: null },
-  { name: "Vuetify 3", color: "primary", icon: null },
-  { name: "Vue Router 4", color: "primary", icon: null },
-  { name: "Vite", color: "secondary", icon: "mdi-lightning-bolt" },
-  { name: "SASS", color: "pink", icon: null },
-  { name: "BEM", color: "grey", icon: null },
-  { name: "Firebase", color: "orange", icon: "mdi-firebase" },
-  { name: "Bootstrap 5", color: "purple", icon: null },
-  { name: "Git & GitHub", color: "grey", icon: "mdi-github" },
-];
+  const skills = [
+    { name: 'Vue 3', color: 'primary', icon: 'mdi-vuejs' },
+    { name: 'Pinia', color: 'secondary', icon: null },
+    { name: 'Vuetify 3', color: 'primary', icon: null },
+    { name: 'Vue Router 4', color: 'primary', icon: null },
+    { name: 'Vite', color: 'secondary', icon: 'mdi-lightning-bolt' },
+    { name: 'SASS', color: 'pink', icon: null },
+    { name: 'BEM', color: 'grey', icon: null },
+    { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
+    { name: 'Bootstrap 5', color: 'purple', icon: null },
+    { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
+  ]
 
-const differentiators = [
-  "Composition API + Composables para lógica reutilizable",
-  "Gestión de estado eficiente con Pinia",
-  "Diseño Mobile First con sobriedad digital",
-  "Código limpio, modular y escalable",
-];
+  const differentiators = [
+    'Composition API + Composables para lógica reutilizable',
+    'Gestión de estado eficiente con Pinia',
+    'Diseño Mobile First con sobriedad digital',
+    'Código limpio, modular y escalable',
+  ]
 
-const projects = [
-  {
-    title: "🚀 Product Showcase SPA",
-    challenge:
-      "Se requería construir una interfaz rápida y escalable para mostrar un catálogo de productos obteniendo datos en tiempo real de una API externa, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.",
-    decisions: [
-      "Vue 3 (Composition API): Elegido para mejorar la modularidad del código y reutilizar la lógica de llamadas a la API mediante Composables.",
-      "Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API y la eliminación de mutaciones innecesarias, logrando un código más limpio y eficiente.",
-      "Axios / Firebase: Utilizado para el consumo de datos y la API REST, implementando interceptores para el manejo global de errores.",
-      "Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.",
-    ],
-    tags: ["Vue 3", "Pinia", "Firebase", "Vuetify", "Vite"],
-    image:
-      "https://placehold.co/800x450/1E1E1E/4FC08D?text=Product+Showcase+SPA",
-    demo: "https://product-showcase-vue.netlify.app/",
-    repo: "https://github.com/jltamayocabello-droid/m7_abp_product-showcase",
-  },
-  {
-    title: "📚 Booklist SPA",
-    challenge:
-      "Se requería construir una interfaz rápida y escalable para gestionar un catálogo bibliográfico dinámico, permitiendo a los usuarios buscar, filtrar y registrar libros en tiempo real, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.",
-    decisions: [
-      "Vue 3 (Composition API): Elegido para mejorar la modularidad del código y manejar la lógica compleja de filtrado y búsqueda mediante Composables, separando la vista de la lógica de negocio.",
-      "Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API, logrando un estado centralizado mucho más limpio y eficiente para el listado de libros.",
-      "Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.",
-    ],
-    tags: ["Vue 3", "Pinia", "Vue Router 4", "Vite", "Vercel"],
-    image: "https://placehold.co/800x450/1E1E1E/ffe162?text=Booklist+SPA",
-    demo: "https://m6-abp-booklist-spa.vercel.app/",
-    repo: "https://github.com/jltamayocabello-droid/m6_abp_booklist-spa",
-  },
-  {
-    title: "💰 SmartBudget",
-    challenge:
-      "Se requería construir una interfaz rápida, escalable y visualmente atractiva para visualizar finanzas personales, asegurando que la experiencia del usuario (UX) fuera impecable en cualquier dispositivo (Mobile First) y sin tiempos de carga pesados.",
-    decisions: [
-      "SASS y BEM: Elegidos para mantener una arquitectura CSS modular, semántica y libre de colisiones. La metodología BEM permitió crear bloques de componentes altamente reutilizables.",
-      "Bootstrap 5: Utilizado estratégicamente para el sistema de grillas base, acelerando el desarrollo responsivo y asegurando la compatibilidad entre navegadores.",
-      "Sobriedad Digital: Optimización del peso de assets, comprimiendo estilos y evitando renderizados innecesarios, reduciendo drásticamente el consumo de recursos en dispositivos móviles.",
-    ],
-    tags: ["SASS", "BEM", "Bootstrap 5", "Flexbox", "CSS Grid"],
-    image: "https://placehold.co/800x450/1E1E1E/4FC08D?text=SmartBudget",
-    demo: "https://jltamayocabello-droid.github.io/m3-abp-smartbudget/",
-    repo: "https://github.com/jltamayocabello-droid/m3-abp-smartbudget",
-  },
-];
+  const projects = [
+    {
+      title: '🚀 Product Showcase SPA',
+      challenge:
+        'Se requería construir una interfaz rápida y escalable para mostrar un catálogo de productos obteniendo datos en tiempo real de una API externa, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.',
+      decisions: [
+        'Vue 3 (Composition API): Elegido para mejorar la modularidad del código y reutilizar la lógica de llamadas a la API mediante Composables.',
+        'Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API y la eliminación de mutaciones innecesarias, logrando un código más limpio y eficiente.',
+        'Axios / Firebase: Utilizado para el consumo de datos y la API REST, implementando interceptores para el manejo global de errores.',
+        'Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.',
+      ],
+      tags: ['Vue 3', 'Pinia', 'Firebase', 'Vuetify', 'Vite'],
+      image:
+        'https://placehold.co/800x450/1E1E1E/4FC08D?text=Product+Showcase+SPA',
+      demo: 'https://product-showcase-vue.netlify.app/',
+      repo: 'https://github.com/jltamayocabello-droid/m7_abp_product-showcase',
+    },
+    {
+      title: '📚 Booklist SPA',
+      challenge:
+        'Se requería construir una interfaz rápida y escalable para gestionar un catálogo bibliográfico dinámico, permitiendo a los usuarios buscar, filtrar y registrar libros en tiempo real, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.',
+      decisions: [
+        'Vue 3 (Composition API): Elegido para mejorar la modularidad del código y manejar la lógica compleja de filtrado y búsqueda mediante Composables, separando la vista de la lógica de negocio.',
+        'Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API, logrando un estado centralizado mucho más limpio y eficiente para el listado de libros.',
+        'Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.',
+      ],
+      tags: ['Vue 3', 'Pinia', 'Vue Router 4', 'Vite', 'Vercel'],
+      image: 'https://placehold.co/800x450/1E1E1E/ffe162?text=Booklist+SPA',
+      demo: 'https://m6-abp-booklist-spa.vercel.app/',
+      repo: 'https://github.com/jltamayocabello-droid/m6_abp_booklist-spa',
+    },
+    {
+      title: '💰 SmartBudget',
+      challenge:
+        'Se requería construir una interfaz rápida, escalable y visualmente atractiva para visualizar finanzas personales, asegurando que la experiencia del usuario (UX) fuera impecable en cualquier dispositivo (Mobile First) y sin tiempos de carga pesados.',
+      decisions: [
+        'SASS y BEM: Elegidos para mantener una arquitectura CSS modular, semántica y libre de colisiones. La metodología BEM permitió crear bloques de componentes altamente reutilizables.',
+        'Bootstrap 5: Utilizado estratégicamente para el sistema de grillas base, acelerando el desarrollo responsivo y asegurando la compatibilidad entre navegadores.',
+        'Sobriedad Digital: Optimización del peso de assets, comprimiendo estilos y evitando renderizados innecesarios, reduciendo drásticamente el consumo de recursos en dispositivos móviles.',
+      ],
+      tags: ['SASS', 'BEM', 'Bootstrap 5', 'Flexbox', 'CSS Grid'],
+      image: 'https://placehold.co/800x450/1E1E1E/4FC08D?text=SmartBudget',
+      demo: 'https://jltamayocabello-droid.github.io/m3-abp-smartbudget/',
+      repo: 'https://github.com/jltamayocabello-droid/m3-abp-smartbudget',
+    },
+  ]
 
-const academicBackground = [
-  {
-    title: "Diplomado de Honores en Pensamiento Contemporáneo",
-    institution: "Instituto de Humanidades, Universidad Diego Portales (UDP)",
-    years: "2011",
-    color: "secondary",
-  },
-  {
-    title: "Licenciatura en Historia",
-    institution: "Universidad Diego Portales (UDP)",
-    years: "2008–2011",
-    color: "secondary",
-  },
-];
+  const academicBackground = [
+    {
+      title: 'Diplomado de Honores en Pensamiento Contemporáneo',
+      institution: 'Instituto de Humanidades, Universidad Diego Portales (UDP)',
+      years: '2011',
+      color: 'secondary',
+    },
+    {
+      title: 'Licenciatura en Historia',
+      institution: 'Universidad Diego Portales (UDP)',
+      years: '2008–2011',
+      color: 'secondary',
+    },
+  ]
 
-const workExperience = [
-  {
-    title: "Asistente de Atención de Usuarios y Gestión de Colecciones",
-    institution: "Biblioteca Gauss, Pontificia Universidad Católica de Chile",
-    description: "Gestión de colecciones y atención a usuarios",
-    years: "2018–2024",
-    color: "primary",
-  },
-  {
-    title: "Asesorías y Orientación Metodológica",
-    institution: "Taller de Investigación Social",
-    description:
-      "Asesorías y orientación metodológica para tesistas e investigadores",
-    years: "2017–2018",
-    color: "primary",
-  },
-  {
-    title: "Asistente de Edición de Textos y Transcripciones",
-    institution:
-      "Trabajo para Bernabé Santelices (Premio Nacional de Ciencias Naturales 2012)",
-    description:
-      "Transcripción, preparación de textos (ISO/APA) y encuadernación",
-    years: "2016–2017",
-    color: "primary",
-  },
-  {
-    title: "Ayudante de Investigación",
-    institution: "Programa de Historia de las Ideas Políticas en Chile, UDP",
-    description: "Ayudante de investigación",
-    years: "2010–2012",
-    color: "primary",
-  },
-  {
-    title: "Documentación y Catalogación de Fotografías",
-    institution: "Centro Nacional Fotográfico (CENFOTO), UDP",
-    description:
-      "Documentación y catalogación de fotografías y álbumes (2008) en el contexto de la Licenciatura en Historia",
-    years: "Jul–Dic 2010",
-    color: "grey",
-  },
-  {
-    title: "Documentación de Colecciones Audiovisuales",
-    institution: "Museo de la Educación Gabriela Mistral (MEGM)",
-    description:
-      "Documentación de colecciones del fondo audiovisual (Cineteca Nacional) en el contexto de la Licenciatura en Historia",
-    years: "Mar–Jun 2011",
-    color: "grey",
-  },
-];
+  const workExperience = [
+    {
+      title: 'Asistente de Atención de Usuarios y Gestión de Colecciones',
+      institution: 'Biblioteca Gauss, Pontificia Universidad Católica de Chile',
+      description: 'Gestión de colecciones y atención a usuarios',
+      years: '2018–2024',
+      color: 'primary',
+    },
+    {
+      title: 'Asesorías y Orientación Metodológica',
+      institution: 'Taller de Investigación Social',
+      description:
+        'Asesorías y orientación metodológica para tesistas e investigadores',
+      years: '2017–2018',
+      color: 'primary',
+    },
+    {
+      title: 'Asistente de Edición de Textos y Transcripciones',
+      institution:
+        'Trabajo para Bernabé Santelices (Premio Nacional de Ciencias Naturales 2012)',
+      description:
+        'Transcripción, preparación de textos (ISO/APA) y encuadernación',
+      years: '2016–2017',
+      color: 'primary',
+    },
+    {
+      title: 'Ayudante de Investigación',
+      institution: 'Programa de Historia de las Ideas Políticas en Chile, UDP',
+      description: 'Ayudante de investigación',
+      years: '2010–2012',
+      color: 'primary',
+    },
+    {
+      title: 'Documentación y Catalogación de Fotografías',
+      institution: 'Centro Nacional Fotográfico (CENFOTO), UDP',
+      description:
+        'Documentación y catalogación de fotografías y álbumes (2008) en el contexto de la Licenciatura en Historia',
+      years: 'Jul–Dic 2010',
+      color: 'grey',
+    },
+    {
+      title: 'Documentación de Colecciones Audiovisuales',
+      institution: 'Museo de la Educación Gabriela Mistral (MEGM)',
+      description:
+        'Documentación de colecciones del fondo audiovisual (Cineteca Nacional) en el contexto de la Licenciatura en Historia',
+      years: 'Mar–Jun 2011',
+      color: 'grey',
+    },
+  ]
 
-const courses = [
-  {
-    year: "2025",
-    title: "Inmersión IA con Google Gemini",
-    provider: "Alura · Google",
-    color: "primary",
-  },
-  {
-    year: "2025",
-    title: "Aprende Data Science: Cuenta Historias con los Datos",
-    provider: "Microsoft · LinkedIn",
-    color: "secondary",
-  },
-  {
-    year: "2025",
-    title: "Aprende Data Science: Conceptos Básicos",
-    provider: "Microsoft · LinkedIn",
-    color: "secondary",
-  },
-  {
-    year: "2025",
-    title: "Aprende Análisis de Datos: Ampliación y Aplicación",
-    provider: "Microsoft · LinkedIn",
-    color: "secondary",
-  },
-  {
-    year: "2025",
-    title: "Aprende Análisis de Datos: Fundamentos",
-    provider: "Microsoft · LinkedIn",
-    color: "secondary",
-  },
-  {
-    year: "2025",
-    title: "Introducción a las Habilidades Profesionales en Análisis de Datos",
-    provider: "Microsoft · LinkedIn",
-    color: "secondary",
-  },
-  {
-    year: "2021",
-    title: "MOOC: Diseño y Formulación de Proyectos para Bibliotecas",
-    provider: "UNIACC",
-    color: "grey",
-  },
-  {
-    year: "2021",
-    title: "Bases de Datos: Access",
-    provider: "Coursera · Universitat Autónoma de Barcelona",
-    color: "grey",
-  },
-  {
-    year: "2021",
-    title: "Herramientas de Ofimática",
-    provider: "Coursera · Universitat Autónoma de Barcelona",
-    color: "grey",
-  },
-  {
-    year: "2021",
-    title: "Conceptos y Herramientas Básicas (Comp. Digitales)",
-    provider: "Coursera · Universitat Autónoma de Barcelona",
-    color: "grey",
-  },
-  {
-    year: "2021",
-    title: "Photoshop desde Cero",
-    provider: "SASI · VGroup",
-    color: "grey",
-  },
-];
+  const courses = [
+    {
+      year: '2025',
+      title: 'Inmersión IA con Google Gemini',
+      provider: 'Alura · Google',
+      color: 'primary',
+    },
+    {
+      year: '2025',
+      title: 'Aprende Data Science: Cuenta Historias con los Datos',
+      provider: 'Microsoft · LinkedIn',
+      color: 'secondary',
+    },
+    {
+      year: '2025',
+      title: 'Aprende Data Science: Conceptos Básicos',
+      provider: 'Microsoft · LinkedIn',
+      color: 'secondary',
+    },
+    {
+      year: '2025',
+      title: 'Aprende Análisis de Datos: Ampliación y Aplicación',
+      provider: 'Microsoft · LinkedIn',
+      color: 'secondary',
+    },
+    {
+      year: '2025',
+      title: 'Aprende Análisis de Datos: Fundamentos',
+      provider: 'Microsoft · LinkedIn',
+      color: 'secondary',
+    },
+    {
+      year: '2025',
+      title: 'Introducción a las Habilidades Profesionales en Análisis de Datos',
+      provider: 'Microsoft · LinkedIn',
+      color: 'secondary',
+    },
+    {
+      year: '2021',
+      title: 'MOOC: Diseño y Formulación de Proyectos para Bibliotecas',
+      provider: 'UNIACC',
+      color: 'grey',
+    },
+    {
+      year: '2021',
+      title: 'Bases de Datos: Access',
+      provider: 'Coursera · Universitat Autónoma de Barcelona',
+      color: 'grey',
+    },
+    {
+      year: '2021',
+      title: 'Herramientas de Ofimática',
+      provider: 'Coursera · Universitat Autónoma de Barcelona',
+      color: 'grey',
+    },
+    {
+      year: '2021',
+      title: 'Conceptos y Herramientas Básicas (Comp. Digitales)',
+      provider: 'Coursera · Universitat Autónoma de Barcelona',
+      color: 'grey',
+    },
+    {
+      year: '2021',
+      title: 'Photoshop desde Cero',
+      provider: 'SASI · VGroup',
+      color: 'grey',
+    },
+  ]
 </script>
 
 <style scoped>

@@ -24,6 +24,11 @@
           target="_blank"
           variant="text"
         />
+        <v-btn
+          href="mailto:jltamayocabello@gmail.com"
+          icon="mdi-email-outline"
+          variant="text"
+        />
       </v-container>
     </v-app-bar>
 
@@ -33,6 +38,13 @@
 
     <v-footer class="text-center d-flex flex-column pa-8" color="background">
       <div class="text-caption text-medium-emphasis">
+        <strong>Contacto: </strong>
+        <a href="mailto:jltamayocabello@gmail.com" style="color: inherit">
+          <v-icon icon="mdi-email-outline" size="13" />
+          jltamayocabello@gmail.com
+        </a>
+      </div>
+      <div class="text-caption text-medium-emphasis mt-2">
         <a
           href="https://creativecommons.org/licenses/by-nc/4.0/"
           rel="noopener noreferrer"
@@ -41,8 +53,8 @@
         >
           <v-icon icon="mdi-creative-commons" size="14" />
         </a>
-        &nbsp;{{ new Date().getFullYear() }} | Jorge Tamayo — Desarrollado con
-        Vue 3 &amp; Vuetify
+        &nbsp;{{ new Date().getFullYear() }} — Portafolio desarrollado con Vue 3
+        &amp; Vuetify
       </div>
     </v-footer>
   </v-app>
