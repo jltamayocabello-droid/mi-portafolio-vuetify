@@ -8,12 +8,12 @@
 [![Vuetify](https://img.shields.io/badge/Vuetify-3.x-1867C0?style=for-the-badge&logo=vuetify&logoColor=white)](https://vuetifyjs.com/)
 [![Pinia](https://img.shields.io/badge/Pinia-latest-FFE162?style=for-the-badge&logo=pinia&logoColor=black)](https://pinia.vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-latest-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
 
-🚀 [Portafolio] (https://mi-portafolio-vuetify.vercel.app/)
-📂 [Repositorio](https://github.com/jltamayocabello-droid/mi-portafolio-vuetify) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/jorge-tamayo-c/)
+🚀 [Portafolio](https://mi-portafolio-vuetify.vercel.app/) &nbsp;|&nbsp; 📂 [Repositorio](https://github.com/jltamayocabello-droid/mi-portafolio-vuetify) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/jorge-tamayo-c/)
 
 </div>
 
