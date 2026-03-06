@@ -57,7 +57,7 @@ Se requería construir una interfaz rápida y escalable para mostrar un catálog
 
 <br>
 
-🚀 [Demo en Vivo](#) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid)
+🚀 [Demo en Vivo](https://product-showcase-vue.netlify.app/) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid/m7_abp_product-showcase)
 
 ---
 
@@ -82,7 +82,7 @@ Se requería construir una interfaz rápida y escalable para gestionar un catál
 
 <br>
 
-🚀 [Demo en Vivo](#) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid)
+🚀 [Demo en Vivo](https://m6-abp-booklist-spa.vercel.app/) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid/m6_abp_booklist-spa)
 
 ---
 
@@ -107,7 +107,7 @@ Se requería construir una interfaz rápida, escalable y visualmente atractiva p
 
 <br>
 
-🚀 [Demo en Vivo](#) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid)
+🚀 [Demo en Vivo](https://jltamayocabello-droid.github.io/m3-abp-smartbudget/) &nbsp;|&nbsp; 💻 [Ver Código](https://github.com/jltamayocabello-droid/m3-abp-smartbudget)
 
 ---
 
