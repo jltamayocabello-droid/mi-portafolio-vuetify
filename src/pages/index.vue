@@ -102,21 +102,31 @@
             elevation="4"
             rounded="xl"
           >
-            <p class="text-body-1 text-medium-emphasis mb-4">
-              Desarrollador Front-End especializado en el ecosistema
-              <strong class="text-primary">Vue.js</strong> con un perfil
-              altamente versátil. Mi sólida trayectoria en investigación y
-              gestión documental me permite abordar problemas técnicos con rigor
-              analítico, creando arquitecturas limpias y estructuradas.
-            </p>
-            <p class="text-body-1 text-medium-emphasis">
-              Acostumbrado a la excelencia en el servicio al usuario, enfoco mis
-              desarrollos en la empatía y la usabilidad. Soy un profesional en
-              constante formación, comprometido con la
-              <strong class="text-secondary">sobriedad digital</strong> y la
-              creación de experiencias digitales elegantes y performantes que
-              resuelvan necesidades reales con máxima eficiencia.
-            </p>
+            <div class="d-flex flex-column align-center ga-4">
+              <img
+                alt="Coding animation"
+                class="about-gif rounded-lg"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWJ6dWF5dDZtdmRtbzZqeHJyNjZ5MXc3cWN5bHM2NzEydW95bGI0aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif"
+              >
+              <div>
+                <p class="text-body-1 text-medium-emphasis mb-4">
+                  Desarrollador Front-End especializado en el ecosistema
+                  <strong class="text-primary">Vue.js</strong> con un perfil
+                  altamente versátil. Mi sólida trayectoria en investigación y
+                  gestión documental me permite abordar problemas técnicos con
+                  rigor analítico, creando arquitecturas limpias y
+                  estructuradas.
+                </p>
+                <p class="text-body-1 text-medium-emphasis">
+                  Acostumbrado a la excelencia en el servicio al usuario, enfoco
+                  mis desarrollos en la empatía y la usabilidad. Soy un
+                  profesional en constante formación, comprometido con la
+                  <strong class="text-secondary">sobriedad digital</strong> y la
+                  creación de experiencias digitales elegantes y performantes
+                  que resuelvan necesidades reales con máxima eficiencia.
+                </p>
+              </div>
+            </div>
           </v-card>
         </v-col>
 
@@ -784,5 +794,14 @@
 /* Section headers */
 .section-header h2 {
   letter-spacing: -0.01em;
+}
+
+.about-gif {
+  width: 100%;
+  max-width: 500px;
+  min-width: 140px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 </style>
