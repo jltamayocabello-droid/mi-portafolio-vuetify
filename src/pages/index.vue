@@ -315,11 +315,6 @@
             style="border: 1px solid rgba(79, 192, 141, 0.3)"
           >
             <v-card-item>
-              <template #prepend>
-                <v-avatar color="primary" rounded="lg" size="48">
-                  <v-icon icon="mdi-vuejs" size="28" />
-                </v-avatar>
-              </template>
               <v-card-title class="text-h6 font-weight-bold text-primary">
                 Desarrollo de Aplicaciones Front-End Trainee
               </v-card-title>
@@ -356,28 +351,39 @@
                 :dot-color="edu.color"
                 size="small"
               >
-                <template #opposite>
-                  <span class="text-caption text-medium-emphasis">{{
-                    edu.years
-                  }}</span>
-                </template>
                 <v-card
                   class="education-card pa-4"
                   color="surface"
                   elevation="2"
+                  min-height="250"
                   rounded="lg"
+                  width="100%"
                 >
-                  <h4 class="text-body-1 font-weight-bold">{{ edu.title }}</h4>
-                  <p class="text-caption text-medium-emphasis mb-0">
-                    {{ edu.institution }}
-                  </p>
+                  <div class="d-flex flex-column align-start gap-2">
+                    <v-chip
+                      class="mb-1"
+                      :color="edu.color"
+                      size="x-small"
+                      variant="tonal"
+                    >
+                      {{ edu.years }}
+                    </v-chip>
+                    <div>
+                      <h4 class="text-body-1 font-weight-bold mb-1">
+                        {{ edu.title }}
+                      </h4>
+                      <p class="text-caption text-medium-emphasis mb-0">
+                        {{ edu.institution }}
+                      </p>
+                    </div>
+                  </div>
                 </v-card>
               </v-timeline-item>
             </v-timeline>
           </v-col>
 
           <!-- EXPERIENCIA LABORAL -->
-          <v-col cols="12" md="6">
+          <v-col class="mt-12 pt-12 mt-md-0 pt-md-3" cols="12" md="6">
             <div class="mb-6">
               <v-chip class="mb-6" color="primary" size="small" variant="tonal">
                 <v-icon icon="mdi-briefcase-outline" start />
@@ -391,24 +397,35 @@
                 :dot-color="job.color"
                 size="small"
               >
-                <template #opposite>
-                  <span class="text-caption text-medium-emphasis">{{
-                    job.years
-                  }}</span>
-                </template>
                 <v-card
                   class="education-card pa-4"
                   color="surface"
                   elevation="2"
+                  min-height="150"
                   rounded="lg"
+                  width="100%"
                 >
-                  <h4 class="text-body-1 font-weight-bold">{{ job.title }}</h4>
-                  <p class="text-caption text-secondary mb-1">
-                    {{ job.institution }}
-                  </p>
-                  <p class="text-caption text-medium-emphasis mb-0">
-                    {{ job.description }}
-                  </p>
+                  <div class="d-flex flex-column align-start gap-2">
+                    <v-chip
+                      class="mb-1"
+                      :color="job.color"
+                      size="x-small"
+                      variant="tonal"
+                    >
+                      {{ job.years }}
+                    </v-chip>
+                    <div>
+                      <h4 class="text-body-1 font-weight-bold mb-1">
+                        {{ job.title }}
+                      </h4>
+                      <p class="text-caption text-secondary mb-1">
+                        {{ job.institution }}
+                      </p>
+                      <p class="text-caption text-medium-emphasis mb-0">
+                        {{ job.description }}
+                      </p>
+                    </div>
+                  </div>
                 </v-card>
               </v-timeline-item>
             </v-timeline>
@@ -803,5 +820,10 @@
   height: auto;
   object-fit: cover;
   flex-shrink: 0;
+}
+
+/* Forzar que las tarjetas del timeline ocupen todo el ancho disponbile */
+:deep(.v-timeline-item__body) {
+  width: 100%;
 }
 </style>
