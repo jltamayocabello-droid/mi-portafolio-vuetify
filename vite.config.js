@@ -26,6 +26,11 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    modulePreload: {
+      resolveDependencies: () => [],
+    },
+  },
   define: { 'process.env': {} },
   resolve: {
     alias: {
