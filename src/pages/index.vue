@@ -126,9 +126,68 @@
               <v-icon class="mr-2" color="primary" icon="mdi-tools" />
               Stack Técnico
             </h3>
+
+            <p class="text-caption text-medium-emphasis mb-2">
+              <v-icon class="mr-1" icon="mdi-code-braces" size="14" />
+              Desarrollo
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <v-chip
+                v-for="skill in devSkills"
+                :key="skill.name"
+                class="font-weight-medium"
+                :color="skill.color"
+                size="default"
+                variant="tonal"
+              >
+                <v-icon :icon="skill.icon" start />
+                {{ skill.name }}
+              </v-chip>
+            </div>
+
+            <p class="text-caption text-medium-emphasis mb-2">
+              <v-icon class="mr-1" icon="mdi-bookshelf" size="14" />
+              Bibliotecología & Gestión
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <v-chip
+                v-for="skill in librarySkills"
+                :key="skill.name"
+                class="font-weight-medium"
+                :color="skill.color"
+                size="default"
+                variant="tonal"
+              >
+                <v-icon :icon="skill.icon" start />
+                {{ skill.name }}
+              </v-chip>
+            </div>
+
+            <p class="text-caption text-medium-emphasis mb-2">
+              <v-icon class="mr-1" icon="mdi-palette" size="14" />
+              Diseño
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+              <v-chip
+                v-for="skill in designSkills"
+                :key="skill.name"
+                class="font-weight-medium"
+                :color="skill.color"
+                size="default"
+                variant="tonal"
+              >
+                <v-icon :icon="skill.icon" start />
+                {{ skill.name }}
+              </v-chip>
+            </div>
+
+            <p class="text-caption text-medium-emphasis mb-2">
+              <v-icon class="mr-1" icon="mdi-robot-outline" size="14" />
+              Herramientas IA
+            </p>
             <div class="d-flex flex-wrap gap-2">
               <v-chip
-                v-for="skill in skills"
+                v-for="skill in aiSkills"
                 :key="skill.name"
                 class="font-weight-medium"
                 :color="skill.color"
@@ -399,7 +458,8 @@
 <script setup>
   import ProjectCard from '@/components/ProjectCard.vue'
 
-  const skills = [
+  const devSkills = [
+    { name: 'JavaScript', color: 'yellow', icon: 'mdi-language-javascript' },
     { name: 'Vue 3', color: 'primary', icon: 'mdi-vuejs' },
     { name: 'Pinia', color: 'secondary', icon: 'mdi-pine-tree' },
     { name: 'Vuetify 3', color: 'primary', icon: 'mdi-palette-swatch' },
@@ -410,9 +470,9 @@
     { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
     { name: 'Bootstrap 5', color: 'purple', icon: 'mdi-bootstrap' },
     { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
-    { name: 'Gemini', color: 'blue', icon: 'mdi-creation' },
-    { name: 'Perplexity', color: 'green', icon: 'mdi-head-lightbulb' },
-    { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-robot-outline' },
+  ]
+
+  const librarySkills = [
     { name: 'Alma (Ex Libris)', color: 'green', icon: 'mdi-bookshelf' },
     {
       name: 'Ex Libris Leganto',
@@ -422,9 +482,18 @@
     { name: 'Zotero', color: 'green', icon: 'mdi-bookmark-multiple' },
     { name: 'Microsoft 365', color: 'orange', icon: 'mdi-microsoft' },
     { name: 'Microsoft Access', color: 'orange', icon: 'mdi-database' },
+  ]
+
+  const designSkills = [
     { name: 'Adobe Photoshop', color: 'green', icon: 'mdi-image-edit' },
     { name: 'Adobe Illustrator', color: 'primary', icon: 'mdi-draw' },
-    { name: 'Adobe Indesign', color: 'primary', icon: 'mdi-book-open-variant' },
+    { name: 'Adobe InDesign', color: 'primary', icon: 'mdi-book-open-variant' },
+  ]
+
+  const aiSkills = [
+    { name: 'Gemini', color: 'blue', icon: 'mdi-creation' },
+    { name: 'Perplexity', color: 'green', icon: 'mdi-head-lightbulb' },
+    { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-robot-outline' },
   ]
 
   const differentiators = [
