@@ -258,8 +258,8 @@
             </v-card-item>
             <v-card-text>
               <p class="text-body-2 text-medium-emphasis">
-                Programa intensivo de formación en el ecosistema moderno de
-                desarrollo Front-End: Vue 3, Pinia, Vuetify 3, Vite, SASS, BEM,
+                Programa bootcamp intensivo de formación en el ecosistema moderno
+                de desarrollo Front-End: Vue 3, Pinia, Vuetify 3, Vite, SASS, BEM,
                 Git y Deploy en plataformas cloud.
               </p>
             </v-card-text>
@@ -410,6 +410,17 @@
     { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
     { name: 'Bootstrap 5', color: 'purple', icon: null },
     { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
+    { name: 'Gemini', color: 'blue', icon: 'mdi-gemini' },
+    { name: 'Perplexity', color: 'green', icon: 'mdi-perplexity' },
+    { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-copilot' },
+    { name: 'Alma (Ex Libris)', color: 'green', icon: 'mdi-alma' },
+    { name: 'Ex Libris Leganto', color: 'green', icon: 'mdi-leganto' },
+    { name: 'Zotero', color: 'green', icon: 'mdi-zotero' },
+    { name: 'Microsoft 365', color: 'orange', icon: 'mdi-365' },
+    { name: 'Microsoft Access', color: 'orange', icon: 'mdi-access' },
+    { name: 'Adobe Photoshop', color: 'green', icon: 'mdi-photoshop' },
+    { name: 'Adobe Illustrator', color: 'primary', icon: 'mdi-illustrator' },
+    { name: 'Adobe Indesign', color: 'primary', icon: 'mdi-indesign' },
   ]
 
   const differentiators = [
@@ -423,12 +434,13 @@
     {
       title: '🚀 Product Showcase SPA',
       challenge:
-        'Se requería construir una interfaz rápida y escalable para mostrar un catálogo de productos obteniendo datos en tiempo real de una API externa, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.',
+        'Desarrollar una SPA de alto impacto visual para un departamento de E-commerce, capaz de gestionar un catálogo dinámico con stock en tiempo real. El reto principal fue integrar una base de datos NoSQL y un sistema de autenticación, asegurando una experiencia de usuario fluida con estética Glassmorphism y protección de rutas administrativas.',
       decisions: [
-        'Vue 3 (Composition API): Elegido para mejorar la modularidad del código y reutilizar la lógica de llamadas a la API mediante Composables.',
-        'Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API y la eliminación de mutaciones innecesarias, logrando un código más limpio y eficiente.',
-        'Axios / Firebase: Utilizado para el consumo de datos y la API REST, implementando interceptores para el manejo global de errores.',
-        'Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.',
+        '• Vue 3 & Pinia: Arquitectura modular con <script setup> para gestionar estados complejos como el carrito de compras y la sincronización de inventario.',
+        '• Firebase (BaaS): Implementación de Firestore para persistencia NoSQL en tiempo real y Firebase Auth para el control de sesiones seguras.',
+        '• Seguridad por Roles: Uso de Navigation Guards para restringir el acceso a funciones administrativas según el perfil de usuario validado.',
+        '• UI/UX Avanzada: Estética Glassmorphism mediante Bootstrap 5 personalizado y componentes de Vuetify para notificaciones contextuales (Snackbars).',
+        '• Lógica de Negocio: Desarrollo de un buscador inteligente y validaciones de stock dinámicas para optimizar la conversión en el flujo de compra',
       ],
       tags: ['Vue 3', 'Pinia', 'Firebase', 'Vuetify', 'Vite'],
       image:
@@ -439,11 +451,13 @@
     {
       title: '📚 Booklist SPA',
       challenge:
-        'Se requería construir una interfaz rápida y escalable para gestionar un catálogo bibliográfico dinámico, permitiendo a los usuarios buscar, filtrar y registrar libros en tiempo real, asegurando que la experiencia del usuario no se viera interrumpida por tiempos de carga.',
+        'Modernizar una plataforma estática de gestión editorial convirtiéndola en una Single Page Application (SPA) reactiva. El reto principal fue implementar un sistema de permisos por roles (Admin/Usuario), asegurar la persistencia de datos en el navegador y garantizar una navegación fluida sin recargas de página, integrando una API externa para portadas en tiempo real.',
       decisions: [
-        'Vue 3 (Composition API): Elegido para mejorar la modularidad del código y manejar la lógica compleja de filtrado y búsqueda mediante Composables, separando la vista de la lógica de negocio.',
-        'Pinia (vs. Vuex): Opté por Pinia por su integración nativa con Composition API, logrando un estado centralizado mucho más limpio y eficiente para el listado de libros.',
-        'Sobriedad Digital: Optimización del peso de assets y evitando renderizados innecesarios en el DOM.',
+        '• Vue 3 (Composition API): Implementación modular con <script setup> para una lógica de componentes reutilizable y escalable.',
+        '• Pinia & Persistencia: Gestión de estado global con sincronización en localStorage para mantener sesiones y datos del catálogo.',
+        '• Seguridad & Router: Control de acceso mediante Navigation Guards y rutas dinámicas para proteger funciones críticas según el rol.',
+        '• Arquitectura de Notificaciones: Diseño de un Flash Store dedicado para alertas globales, optimizando la comunicación con el usuario sin saturar las URLs.',
+        '• Integración de API Externa: Consumo de Open Library API para portadas dinámicas, reduciendo el peso del bundle y automatizando la carga de activos.',
       ],
       tags: ['Vue 3', 'Pinia', 'Vue Router 4', 'Vite', 'Vercel'],
       image: 'https://placehold.co/800x450/1E1E1E/ffe162?text=Booklist+SPA',
@@ -453,11 +467,12 @@
     {
       title: '💰 SmartBudget',
       challenge:
-        'Se requería construir una interfaz rápida, escalable y visualmente atractiva para visualizar finanzas personales, asegurando que la experiencia del usuario (UX) fuera impecable en cualquier dispositivo (Mobile First) y sin tiempos de carga pesados.',
+        'Construir una plataforma de finanzas personales Mobile-First basada en prototipos de Figma, priorizando una carga ultrarrápida, una arquitectura de código mantenible y una experiencia de usuario fluida en cualquier dispositivo.',
       decisions: [
-        'SASS y BEM: Elegidos para mantener una arquitectura CSS modular, semántica y libre de colisiones. La metodología BEM permitió crear bloques de componentes altamente reutilizables.',
-        'Bootstrap 5: Utilizado estratégicamente para el sistema de grillas base, acelerando el desarrollo responsivo y asegurando la compatibilidad entre navegadores.',
-        'Sobriedad Digital: Optimización del peso de assets, comprimiendo estilos y evitando renderizados innecesarios, reduciendo drásticamente el consumo de recursos en dispositivos móviles.',
+        '• SASS (Arquitectura 7-1): Implementé una estructura modular para centralizar variables y componentes, optimizando el mantenimiento y la compilación de estilos.',
+        '• Metodología BEM: Adopté este estándar para crear componentes independientes y reutilizables, eliminando conflictos de especificidad en el CSS.',
+        '• Bootstrap 5 (Modern Stack): Seleccioné esta versión por su alto rendimiento al prescindir de jQuery, utilizando su sistema de grillas para un desarrollo responsivo ágil.',
+        '• Optimización de Rendimiento: Reduje el peso del bundle mediante la compresión de activos y la limpieza de código, garantizando una navegación ligera y eficiente.',
       ],
       tags: ['SASS', 'BEM', 'Bootstrap 5', 'Flexbox', 'CSS Grid'],
       image: 'https://placehold.co/800x450/1E1E1E/4FC08D?text=SmartBudget',
@@ -485,7 +500,7 @@
     {
       title: 'Asistente de Atención de Usuarios y Gestión de Colecciones',
       institution: 'Biblioteca Gauss, Pontificia Universidad Católica de Chile',
-      description: 'Gestión de colecciones y atención a usuarios',
+      description: 'Gestión integral de colecciones y atención directa a usuarios mediante procesos de catalogación, clasificación y control de inventarios físicos y digitales. Administración del ciclo de adquisición, circulación y bibliografías mínimas, con soporte técnico en catálogos y bases de datos, junto con la generación de informes estadísticos para optimizar la disponibilidad y preservación del material.',
       years: '2018–2024',
       color: 'primary',
     },
@@ -493,23 +508,30 @@
       title: 'Asesorías y Orientación Metodológica',
       institution: 'Taller de Investigación Social',
       description:
-        'Asesorías y orientación metodológica para tesistas e investigadores',
+        'Asesoría y orientación metodológica para tesistas e investigadores en el diseño de proyectos, definición de objetivos y selección de marcos metodológicos. Responsable del apoyo en el procesamiento de datos, aplicación de normas de citación y gestión de herramientas de búsqueda académica para asegurar el rigor científico y la calidad de la producción investigativa.',
       years: '2017–2018',
+      color: 'primary',
+    },
+    {
+      title: 'Asistente de Atención de Usuarios',
+      institution: 'Biblioteca Campus Oriente, Pontificia Universidad Católica de Chile',
+      description: 'Responsable de la gestión integral de circulación y atención al usuario, ejecutando procesos de préstamo, devolución y catalogación básica de colecciones.',
+      years: '2016–2017',
       color: 'primary',
     },
     {
       title: 'Asistente de Edición de Textos y Transcripciones',
       institution:
-        'Trabajo para Bernabé Santelices (Premio Nacional de Ciencias Naturales 2012)',
+        'Bernabé Santelices (Premio Nacional de Ciencias Naturales 2012)',
       description:
-        'Transcripción, preparación de textos (ISO/APA) y encuadernación',
+        'Preparación técnica y formalización de textos académicos siguiendo normativas internacionales (ISO/APA). Ejecución de procesos de transcripción, edición y encuadernación de investigaciones para la conformación de portafolios académicos',
       years: '2016–2017',
       color: 'primary',
     },
     {
       title: 'Ayudante de Investigación',
       institution: 'Programa de Historia de las Ideas Políticas en Chile, UDP',
-      description: 'Ayudante de investigación',
+      description: 'Asistente de Investigación en el área de historia de las ideas políticas, responsable del análisis de la evolución institucional y debates públicos de los siglos XIX y XX. Ejecución de tareas de recopilación, sistematización de fuentes primarias y análisis cualitativo/cuantitativo para la comprensión del pensamiento político y la esfera pública chilena.',
       years: '2010–2012',
       color: 'primary',
     },
@@ -517,7 +539,7 @@
       title: 'Documentación y Catalogación de Fotografías',
       institution: 'Centro Nacional Fotográfico (CENFOTO), UDP',
       description:
-        'Documentación y catalogación de fotografías y álbumes (2008) en el contexto de la Licenciatura en Historia',
+        'Documentación y catalogación de fotografías y álbumes del siglo XIX comprados por UDP y conservadas en comodato en CENFOTO. Tarea realizada en el contexto de la Licenciatura en Historia',
       years: 'Jul–Dic 2010',
       color: 'grey',
     },
@@ -525,7 +547,7 @@
       title: 'Documentación de Colecciones Audiovisuales',
       institution: 'Museo de la Educación Gabriela Mistral (MEGM)',
       description:
-        'Documentación de colecciones del fondo audiovisual (Cineteca Nacional) en el contexto de la Licenciatura en Historia',
+        'Documentación de colecciones del fondo audiovisual donado por la Cineteca Nacional a MEGM. Tarea realizada en el contexto de la Licenciatura en Historia',
       years: 'Mar–Jun 2011',
       color: 'grey',
     },
@@ -569,6 +591,12 @@
       color: 'secondary',
     },
     {
+      year: '2022',
+      title: 'Fundamentos de la Escritura ',
+      provider: 'Coursera-Tecnológico de Monterrey',
+      color: 'grey',
+    },
+    {
       year: '2021',
       title: 'MOOC: Diseño y Formulación de Proyectos para Bibliotecas',
       provider: 'UNIACC',
@@ -576,19 +604,25 @@
     },
     {
       year: '2021',
-      title: 'Bases de Datos: Access',
+      title: 'Taller de Historia Local y Memoria',
+      provider: 'Memorias de la Río, Núcleo de historia social popular y autoeducación popular, Universidad de Chile',
+      color: 'grey',
+    },
+    {
+      year: '2021',
+      title: 'Competencias Digitales: Bases de Datos. Access',
       provider: 'Coursera · Universitat Autónoma de Barcelona',
       color: 'grey',
     },
     {
       year: '2021',
-      title: 'Herramientas de Ofimática',
+      title: 'Competencias Digitales: Conceptos y Herramientas Básicas',
       provider: 'Coursera · Universitat Autónoma de Barcelona',
       color: 'grey',
     },
     {
       year: '2021',
-      title: 'Conceptos y Herramientas Básicas (Comp. Digitales)',
+      title: 'Competencias Digitales: Herramientas de Ofimática',
       provider: 'Coursera · Universitat Autónoma de Barcelona',
       color: 'grey',
     },
