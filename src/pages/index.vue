@@ -550,7 +550,7 @@
     {
       title: '💰 SmartBudget',
       challenge:
-        'Construir una plataforma de finanzas personales Mobile-First basada en prototipos de Figma, priorizando una carga ultrarrápida, una arquitectura de código mantenible y una experiencia de usuario fluida en cualquier dispositivo.',
+        'El desafío consistió en transformar un prototipo de alta fidelidad (Figma) en una plataforma de gestión financiera de alto rendimiento. Se requería una arquitectura Mobile-First capaz de manejar visualizaciones complejas (balances, tokens y billeteras) manteniendo una carga ultrarrápida, una estructura de código mantenible y una experiencia de usuario (UX) fluida en dispositivos con recursos limitados."',
       decisions: [
         '• SASS (Arquitectura 7-1): Implementé una estructura modular para centralizar variables y componentes, optimizando el mantenimiento y la compilación de estilos.',
         '• Metodología BEM: Adopté este estándar para crear componentes independientes y reutilizables, eliminando conflictos de especificidad en el CSS.',

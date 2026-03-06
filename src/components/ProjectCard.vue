@@ -30,7 +30,6 @@
           {{ challenge }}
         </p>
       </div>
-
       <v-expansion-panels variant="accordion">
         <v-expansion-panel bg-color="surface" title="Decisiones Técnicas">
           <v-expansion-panel-text class="text-caption">
@@ -96,7 +95,7 @@
 <style scoped>
 .challenge-clamp {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 7;
   line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
