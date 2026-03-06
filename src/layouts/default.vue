@@ -43,6 +43,37 @@
           <v-icon icon="mdi-email-outline" size="13" />
           jltamayocabello@gmail.com
         </a>
+        <br>
+        <a href="tel:+56981986512" style="color: inherit">
+          <v-icon icon="mdi-phone" size="13" />
+          +56 9 81986512
+        </a>
+        <!-- Redes Sociales -->
+        <div class="d-flex justify-center gap-2 mt-2">
+          <v-btn
+            color="success"
+            density="comfortable"
+            href="https://wa.me/56981986512"
+            icon="mdi-whatsapp"
+            target="_blank"
+            variant="text"
+          />
+          <v-btn
+            color="blue-lighten-3"
+            density="comfortable"
+            href="https://www.linkedin.com/in/jorge-tamayo-c/"
+            icon="mdi-linkedin"
+            target="_blank"
+            variant="text"
+          />
+          <v-btn
+            density="comfortable"
+            href="https://github.com/jltamayocabello-droid"
+            icon="mdi-github"
+            target="_blank"
+            variant="text"
+          />
+        </div>
       </div>
       <div class="text-caption text-medium-emphasis mt-2">
         <a
