@@ -12,7 +12,7 @@
 
 ---
 
-[Portafolio]
+🚀 [Portafolio] https://mi-portafolio-vuetify.vercel.app/
 📂 [Repositorio](https://github.com/jltamayocabello-droid/mi-portafolio-vuetify) &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/jorge-tamayo-c/)
 
 </div>
@@ -170,4 +170,6 @@ mi-portafolio-vuetify/
 
 ## 📝 Licencia
 
-[MIT](http://opensource.org/licenses/MIT) | [![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/) 2026 Jorge Tamayo
+2026 Jorge Tamayo
+[![MIT](http://opensource.org/licenses/MIT)](http://opensource.org/licenses/MIT)
+[![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc/4.0/)
