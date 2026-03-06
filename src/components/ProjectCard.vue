@@ -1,5 +1,10 @@
 <template>
-  <v-card border class="mx-auto my-4 pb-4" elevation="10" rounded="xl">
+  <v-card
+    border
+    class="mx-auto my-4 pb-4 d-flex flex-column h-100"
+    elevation="10"
+    rounded="xl"
+  >
     <v-img cover height="250" :src="image" />
 
     <v-card-item>
@@ -18,10 +23,12 @@
       </div>
     </v-card-item>
 
-    <v-card-text>
+    <v-card-text class="flex-grow-1">
       <div class="mb-4">
         <strong class="text-white">El Desafío:</strong>
-        <p class="text-body-2 text-medium-emphasis">{{ challenge }}</p>
+        <p class="text-body-2 text-medium-emphasis challenge-clamp">
+          {{ challenge }}
+        </p>
       </div>
 
       <v-expansion-panels variant="accordion">
@@ -85,3 +92,13 @@
     },
   })
 </script>
+
+<style scoped>
+.challenge-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+</style>
