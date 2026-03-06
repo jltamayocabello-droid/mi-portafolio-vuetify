@@ -36,20 +36,23 @@
       <router-view />
     </v-main>
 
-    <v-footer class="text-center d-flex flex-column pa-8" color="background">
-      <div class="text-caption text-medium-emphasis">
-        <strong>Contacto: </strong>
-        <a href="mailto:jltamayocabello@gmail.com" style="color: inherit">
-          <v-icon icon="mdi-email-outline" size="13" />
-          jltamayocabello@gmail.com
-        </a>
-        <br>
-        <a href="tel:+56981986512" style="color: inherit">
-          <v-icon icon="mdi-phone" size="13" />
-          +56 9 81986512
-        </a>
+    <v-footer class="d-flex flex-column pa-8" color="background">
+      <!-- Contacto-->
+      <div class="d-flex justify-center ga-10 align-center w-100 text-caption text-medium-emphasis">
+        <div class="d-flex flex-column align-start ">
+          <strong>Contacto: </strong>
+          <a href="mailto:jltamayocabello@gmail.com" style="color: inherit">
+            <v-icon icon="mdi-email-outline" size="13" />
+            jltamayocabello@gmail.com
+          </a>
+          <a href="tel:+56981986512" style="color: inherit">
+            <v-icon icon="mdi-phone" size="13" />
+            +56 9 81986512
+          </a>
+        </div>
+        <v-divider vertical />
         <!-- Redes Sociales -->
-        <div class="d-flex justify-center gap-2 mt-2">
+        <div class="d-flex gap-2">
           <v-btn
             color="success"
             density="comfortable"
