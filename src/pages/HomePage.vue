@@ -331,7 +331,7 @@
               <p class="text-body-2 text-medium-emphasis">
                 Programa bootcamp intensivo de formación en el ecosistema
                 moderno de desarrollo Front-End: Vue 3, Pinia, Vuetify 3, Vite,
-                SASS, BEM, Git y Deploy en plataformas cloud.
+                SASS, BEM, Bootstrap 5, Git y Deploy en plataformas cloud.
               </p>
             </v-card-text>
           </v-card>
@@ -607,7 +607,7 @@
     {
       title: '💰 SmartBudget',
       challenge:
-        'El desafío consistió en transformar un prototipo de alta fidelidad (Figma) en una plataforma de gestión financiera de alto rendimiento. Se requería una arquitectura Mobile-First capaz de manejar visualizaciones complejas (balances, tokens y billeteras) manteniendo una carga ultrarrápida, una estructura de código mantenible y una experiencia de usuario (UX) fluida en dispositivos con recursos limitados."',
+        'Transformar un prototipo de alta fidelidad (Figma) en una plataforma de gestión financiera de alto rendimiento. Se requería una arquitectura Mobile-First capaz de manejar visualizaciones complejas (balances, tokens y billeteras) manteniendo una carga ultrarrápida, una estructura de código mantenible y una experiencia de usuario (UX) fluida en dispositivos con recursos limitados.',
       decisions: [
         'SASS (Arquitectura 7-1): Implementé una estructura modular para centralizar variables y componentes, optimizando el mantenimiento y la compilación de estilos.',
         'Metodología BEM: Adopté este estándar para crear componentes independientes y reutilizables, eliminando conflictos de especificidad en el CSS.',
