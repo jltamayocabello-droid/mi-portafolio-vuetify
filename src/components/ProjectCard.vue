@@ -47,7 +47,7 @@
       </v-expansion-panels>
     </v-card-text>
 
-    <v-card-actions>
+    <v-card-actions class="justify-center ms-2 mx-2">
       <v-btn
         color="primary"
         :href="demo"
