@@ -7,9 +7,14 @@
   >
     <v-img cover height="250" :src="image" />
 
-    <v-card-item class="px-4 px-sm-6 pt-4 pt-sm-6 pb-2">
-      <v-card-title class="text-h5 text-primary">{{ title }}</v-card-title>
-      <div class="d-flex flex-wrap gap-2 mt-2">
+    <v-card-item
+      class="px-4 px-sm-6 pt-4 pt-sm-6 pb-2"
+      style="min-height: 120px"
+    >
+      <v-card-title class="text-h5 text-primary text-center">{{
+        title
+      }}</v-card-title>
+      <div class="d-flex flex-wrap justify-center gap-2 mt-2">
         <v-chip
           v-for="tech in tags"
           :key="tech"
@@ -24,7 +29,7 @@
     </v-card-item>
 
     <v-card-text class="flex-grow-1 px-4 px-sm-6 py-2">
-      <div class="mb-4">
+      <div class="mb-4 text-center">
         <strong class="text-white">El Desafío:</strong>
         <p
           class="text-body-2 text-medium-emphasis text-justify"
@@ -44,16 +49,37 @@
           </v-btn>
         </div>
       </div>
-      <v-expansion-panels variant="accordion">
-        <v-expansion-panel bg-color="surface" title="Decisiones Técnicas">
-          <v-expansion-panel-text class="text-caption">
-            <p
-              v-for="(decision, i) in decisions"
-              :key="i"
-              class="mb-2 text-justify"
-            >
-              • {{ decision }}
-            </p>
+      <v-expansion-panels
+        class="border rounded-lg"
+        elevation="0"
+        variant="accordion"
+      >
+        <v-expansion-panel bg-color="surface" elevation="0">
+          <v-expansion-panel-title
+            class="font-weight-bold text-primary"
+            color="rgba(79, 192, 141, 0.08)"
+          >
+            <v-icon class="mr-2" icon="mdi-code-braces-box" size="small" />
+            Decisiones Técnicas
+          </v-expansion-panel-title>
+          <v-expansion-panel-text class="text-caption pt-4">
+            <v-timeline align="start" density="compact" side="end">
+              <v-timeline-item
+                v-for="(decision, i) in decisions"
+                :key="i"
+                dot-color="primary"
+                size="x-small"
+              >
+                <div class="text-body-2 text-justify mb-2">
+                  <template v-if="decision.includes(':')">
+                    <strong>{{ decision.split(":")[0] }}:</strong>{{ decision.split(":")[1] }}
+                  </template>
+                  <template v-else>
+                    {{ decision }}
+                  </template>
+                </div>
+              </v-timeline-item>
+            </v-timeline>
           </v-expansion-panel-text>
         </v-expansion-panel>
       </v-expansion-panels>
