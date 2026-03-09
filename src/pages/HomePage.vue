@@ -686,19 +686,19 @@
       color: 'primary',
     },
     {
-      title: 'Documentación y Catalogación de Fotografías',
-      institution: 'Centro Nacional Fotográfico (CENFOTO), UDP',
-      description:
-        'Documentación y catalogación de fotografías y álbumes del siglo XIX comprados por UDP y conservadas en comodato en CENFOTO. Tarea realizada en el contexto de la Licenciatura en Historia.',
-      years: 'Jul–Dic 2010',
-      color: 'grey',
-    },
-    {
       title: 'Documentación de Colecciones Audiovisuales',
       institution: 'Museo de la Educación Gabriela Mistral (MEGM)',
       description:
         'Documentación de colecciones del fondo audiovisual donado por la Cineteca Nacional a MEGM. Tarea realizada en el contexto de la Licenciatura en Historia.',
       years: 'Mar–Jun 2011',
+      color: 'grey',
+    },
+    {
+      title: 'Documentación y Catalogación de Fotografías',
+      institution: 'Centro Nacional Fotográfico (CENFOTO), UDP',
+      description:
+        'Documentación y catalogación de fotografías y álbumes del siglo XIX comprados por UDP y conservadas en comodato en CENFOTO. Tarea realizada en el contexto de la Licenciatura en Historia.',
+      years: 'Jul–Dic 2010',
       color: 'grey',
     },
   ]
@@ -741,9 +741,34 @@
       color: 'secondary',
     },
     {
+      year: '2024',
+      title:
+        'Introducción a la Ciencia Abierta: Una Aproximación a los Datos de Investigación y Publicación en Abierto',
+      provider: 'Bibliotecas de la Pontificia Universidad Católica de Chile',
+      color: 'grey',
+    },
+    {
+      year: '2024',
+      title: 'Gestión del Talento Humano',
+      provider: 'Coursera · Universidad Nacional Autónoma de México',
+      color: 'grey',
+    },
+    {
+      year: '2023',
+      title: 'Nivel 2 "Maximiza el potencial de Microsoft 365"',
+      provider: 'NoventiQ · Dirección de Transformación Digital, Pontificia Universidad Católica de Chile',
+      color: 'grey',
+    },
+    {
+      year: '2022',
+      title: 'Identidad y Bienestar Digital',
+      provider: 'Escuela de Competencias Digitales PUC',
+      color: 'grey',
+    },
+    {
       year: '2022',
       title: 'Fundamentos de la Escritura ',
-      provider: 'Coursera-Tecnológico de Monterrey',
+      provider: 'Coursera · Tecnológico de Monterrey',
       color: 'grey',
     },
     {
@@ -781,6 +806,19 @@
       year: '2021',
       title: 'Photoshop desde Cero',
       provider: 'SASI · VGroup',
+      color: 'grey',
+    },
+    {
+      year: '2020',
+      title: 'Ciberseguridad',
+      provider: 'Escuela de Cumplimiento, SENCE',
+      color: 'grey',
+    },
+    {
+      year: '2020',
+      title:
+        'Autoliderazgo y gestión de emociones para avanzar en desafíos complejos',
+      provider: 'Coursera · Universidad de Los Andes, Colombia',
       color: 'grey',
     },
   ]
