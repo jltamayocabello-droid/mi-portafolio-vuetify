@@ -1,15 +1,15 @@
 <template>
   <v-card
     border
-    class="mx-auto my-4 pb-4 d-flex flex-column h-100"
+    class="mx-auto my-4 d-flex flex-column h-100"
     elevation="10"
     rounded="xl"
   >
     <v-img cover height="250" :src="image" />
 
-    <v-card-item class="ms-2 mx-2 mt-2 md-2">
+    <v-card-item class="px-4 px-sm-6 pt-4 pt-sm-6 pb-2">
       <v-card-title class="text-h5 text-primary">{{ title }}</v-card-title>
-      <div class="d-flex gap-2 mt-2">
+      <div class="d-flex flex-wrap gap-2 mt-2">
         <v-chip
           v-for="tech in tags"
           :key="tech"
@@ -23,7 +23,7 @@
       </div>
     </v-card-item>
 
-    <v-card-text class="flex-grow-1 ms-2 mx-2 mt-2 md-2">
+    <v-card-text class="flex-grow-1 px-4 px-sm-6 py-2">
       <div class="mb-4">
         <strong class="text-white">El Desafío:</strong>
         <p
@@ -59,7 +59,7 @@
       </v-expansion-panels>
     </v-card-text>
 
-    <v-card-actions class="justify-center ms-2 mx-2">
+    <v-card-actions class="justify-center px-4 px-sm-6 pb-4 pt-2">
       <v-btn
         color="primary"
         :href="demo"
@@ -117,7 +117,7 @@
 <style scoped>
 .challenge-clamp {
   display: -webkit-box;
-  -webkit-line-clamp: 7;
+  -webkit-line-clamp: 4;
   line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;

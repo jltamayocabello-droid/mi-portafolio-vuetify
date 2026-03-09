@@ -1,13 +1,3 @@
-<script setup>
-  import { ref } from 'vue'
-
-  const drawer = ref(false)
-
-  function scrollToTop () {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-  }
-</script>
-
 <template>
   <v-app>
     <v-app-bar border color="background" flat>
@@ -158,3 +148,12 @@
     </v-footer>
   </v-app>
 </template>
+<script setup>
+  import { ref } from 'vue'
+
+  const drawer = ref(false)
+
+  function scrollToTop () {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+</script>

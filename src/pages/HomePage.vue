@@ -548,11 +548,11 @@
       challenge:
         'Desarrollar una SPA de alto impacto visual para un departamento de E-commerce, capaz de gestionar un catálogo dinámico con stock en tiempo real. El reto principal fue integrar una base de datos NoSQL y un sistema de autenticación, asegurando una experiencia de usuario fluida con estética Glassmorphism y protección de rutas administrativas.',
       decisions: [
-        '• Vue 3 & Pinia: Arquitectura modular con <script setup> para gestionar estados complejos como el carrito de compras y la sincronización de inventario.',
-        '• Firebase (BaaS): Implementación de Firestore para persistencia NoSQL en tiempo real y Firebase Auth para el control de sesiones seguras.',
-        '• Seguridad por Roles: Uso de Navigation Guards para restringir el acceso a funciones administrativas según el perfil de usuario validado.',
-        '• UI/UX Avanzada: Estética Glassmorphism mediante Bootstrap 5 personalizado y componentes de Vuetify para notificaciones contextuales (Snackbars).',
-        '• Lógica de Negocio: Desarrollo de un buscador inteligente y validaciones de stock dinámicas para optimizar la conversión en el flujo de compra',
+        'Vue 3 & Pinia: Arquitectura modular con <script setup> para gestionar estados complejos como el carrito de compras y la sincronización de inventario.',
+        'Firebase (BaaS): Implementación de Firestore para persistencia NoSQL en tiempo real y Firebase Auth para el control de sesiones seguras.',
+        'Seguridad por Roles: Uso de Navigation Guards para restringir el acceso a funciones administrativas según el perfil de usuario validado.',
+        'UI/UX Avanzada: Estética Glassmorphism mediante Bootstrap 5 personalizado y componentes de Vuetify para notificaciones contextuales (Snackbars).',
+        'Lógica de Negocio: Desarrollo de un buscador inteligente y validaciones de stock dinámicas para optimizar la conversión en el flujo de compra',
       ],
       tags: ['Vue 3', 'Pinia', 'Firebase', 'Vuetify', 'Vite'],
       image:
@@ -565,11 +565,11 @@
       challenge:
         'Modernizar una plataforma estática de gestión editorial convirtiéndola en una Single Page Application (SPA) reactiva. El reto principal fue implementar un sistema de permisos por roles (Admin/Usuario), asegurar la persistencia de datos en el navegador y garantizar una navegación fluida sin recargas de página, integrando una API externa para portadas en tiempo real.',
       decisions: [
-        '• Vue 3 (Composition API): Implementación modular con <script setup> para una lógica de componentes reutilizable y escalable.',
-        '• Pinia & Persistencia: Gestión de estado global con sincronización en localStorage para mantener sesiones y datos del catálogo.',
-        '• Seguridad & Router: Control de acceso mediante Navigation Guards y rutas dinámicas para proteger funciones críticas según el rol.',
-        '• Arquitectura de Notificaciones: Diseño de un Flash Store dedicado para alertas globales, optimizando la comunicación con el usuario sin saturar las URLs.',
-        '• Integración de API Externa: Consumo de Open Library API para portadas dinámicas, reduciendo el peso del bundle y automatizando la carga de activos.',
+        'Vue 3 (Composition API): Implementación modular con <script setup> para una lógica de componentes reutilizable y escalable.',
+        'Pinia & Persistencia: Gestión de estado global con sincronización en localStorage para mantener sesiones y datos del catálogo.',
+        'Seguridad & Router: Control de acceso mediante Navigation Guards y rutas dinámicas para proteger funciones críticas según el rol.',
+        'Arquitectura de Notificaciones: Diseño de un Flash Store dedicado para alertas globales, optimizando la comunicación con el usuario sin saturar las URLs.',
+        'Integración de API Externa: Consumo de Open Library API para portadas dinámicas, reduciendo el peso del bundle y automatizando la carga de activos.',
       ],
       tags: ['Vue 3', 'Pinia', 'Vue Router 4', 'Vite', 'Vercel'],
       image: 'https://placehold.co/800x450/1E1E1E/ffe162?text=Booklist+SPA',
@@ -581,10 +581,10 @@
       challenge:
         'El desafío consistió en transformar un prototipo de alta fidelidad (Figma) en una plataforma de gestión financiera de alto rendimiento. Se requería una arquitectura Mobile-First capaz de manejar visualizaciones complejas (balances, tokens y billeteras) manteniendo una carga ultrarrápida, una estructura de código mantenible y una experiencia de usuario (UX) fluida en dispositivos con recursos limitados."',
       decisions: [
-        '• SASS (Arquitectura 7-1): Implementé una estructura modular para centralizar variables y componentes, optimizando el mantenimiento y la compilación de estilos.',
-        '• Metodología BEM: Adopté este estándar para crear componentes independientes y reutilizables, eliminando conflictos de especificidad en el CSS.',
-        '• Bootstrap 5 (Modern Stack): Seleccioné esta versión por su alto rendimiento al prescindir de jQuery, utilizando su sistema de grillas para un desarrollo responsivo ágil.',
-        '• Optimización de Rendimiento: Reduje el peso del bundle mediante la compresión de activos y la limpieza de código, garantizando una navegación ligera y eficiente.',
+        'SASS (Arquitectura 7-1): Implementé una estructura modular para centralizar variables y componentes, optimizando el mantenimiento y la compilación de estilos.',
+        'Metodología BEM: Adopté este estándar para crear componentes independientes y reutilizables, eliminando conflictos de especificidad en el CSS.',
+        'Bootstrap 5 (Modern Stack): Seleccioné esta versión por su alto rendimiento al prescindir de jQuery, utilizando su sistema de grillas para un desarrollo responsivo ágil.',
+        'Optimización de Rendimiento: Reduje el peso del bundle mediante la compresión de activos y la limpieza de código, garantizando una navegación ligera y eficiente.',
       ],
       tags: ['SASS', 'BEM', 'Bootstrap 5', 'Flexbox', 'CSS Grid'],
       image: 'https://placehold.co/800x450/1E1E1E/4FC08D?text=SmartBudget',
