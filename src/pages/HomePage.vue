@@ -534,11 +534,12 @@
     { name: 'Vite', color: 'secondary', icon: 'mdi-lightning-bolt' },
     { name: 'SASS', color: 'pink', icon: 'mdi-sass' },
     { name: 'BEM', color: 'grey', icon: 'mdi-code-braces-box' },
+    { name: 'WordPress', color: 'blue-darken-2', icon: 'mdi-wordpress' },
     { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
     { name: 'Bootstrap 5', color: 'purple', icon: 'mdi-bootstrap' },
     { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
-    { name: 'Netlify', color: 'green', icon: 'mdi-netlify' },
-    { name: 'Vercel', color: 'grey', icon: 'mdi-vercel' },
+    { name: 'Netlify', color: 'teal', icon: 'mdi-cloud-upload' },
+    { name: 'Vercel', color: 'black', icon: 'mdi-triangle' },
   ]
 
   const librarySkills = [
