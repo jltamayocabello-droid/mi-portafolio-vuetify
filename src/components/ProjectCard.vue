@@ -27,10 +27,22 @@
       <div class="mb-4">
         <strong class="text-white">El Desafío:</strong>
         <p
-          class="text-body-2 text-medium-emphasis challenge-clamp text-justify"
+          class="text-body-2 text-medium-emphasis text-justify"
+          :class="{ 'challenge-clamp': !verMas }"
         >
           {{ challenge }}
         </p>
+        <div class="d-flex justify-end mt-1 mb-2">
+          <v-btn
+            class="text-none px-0"
+            color="primary"
+            size="small"
+            variant="plain"
+            @click="verMas = !verMas"
+          >
+            {{ verMas ? "Mostrar menos" : "Leer más" }}
+          </v-btn>
+        </div>
       </div>
       <v-expansion-panels variant="accordion">
         <v-expansion-panel bg-color="surface" title="Decisiones Técnicas">
@@ -66,6 +78,10 @@
 </template>
 
 <script setup>
+  import { ref } from 'vue'
+
+  const verMas = ref(false)
+
   defineProps({
     title: {
       type: String,

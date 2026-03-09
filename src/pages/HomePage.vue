@@ -495,7 +495,8 @@
   import ProjectCard from '@/components/ProjectCard.vue'
 
   const devSkills = [
-    { name: 'JavaScript', color: 'yellow', icon: 'mdi-language-javascript' },
+    { name: 'HTML5', color: 'orange', icon: 'mdi-language-html5' },
+    { name: 'CSS3', color: 'blue', icon: 'mdi-language-css3' }, { name: 'JavaScript', color: 'yellow', icon: 'mdi-language-javascript' },
     { name: 'Vue 3', color: 'primary', icon: 'mdi-vuejs' },
     { name: 'Pinia', color: 'secondary', icon: 'mdi-pine-tree' },
     { name: 'Vuetify 3', color: 'primary', icon: 'mdi-palette-swatch' },
@@ -506,6 +507,8 @@
     { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
     { name: 'Bootstrap 5', color: 'purple', icon: 'mdi-bootstrap' },
     { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
+    { name: 'Netlify', color: 'green', icon: 'mdi-netlify' },
+    { name: 'Vercel', color: 'grey', icon: 'mdi-vercel' },
   ]
 
   const librarySkills = [
