@@ -2,6 +2,10 @@
   import { ref } from 'vue'
 
   const drawer = ref(false)
+
+  function scrollToTop () {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 </script>
 
 <template>
@@ -84,7 +88,7 @@
       <div
         class="d-flex flex-wrap justify-center ga-5 ga-md-10 align-center w-100 text-caption text-medium-emphasis"
       >
-        <div class="d-flex flex-column align-start">
+        <div class="d-flex flex-column align-center">
           <strong>Contacto: </strong>
           <a href="mailto:jltamayocabello@gmail.com" style="color: inherit">
             <v-icon icon="mdi-email-outline" size="13" />
@@ -95,7 +99,11 @@
             +56 9 81986512
           </a>
         </div>
-        <v-divider class="d-none d-md-flex" vertical />
+        <v-divider
+          class="d-none d-md-flex align-self-center"
+          style="height: 24px"
+          vertical
+        />
         <!-- Redes Sociales -->
         <div class="d-flex gap-2">
           <v-btn
@@ -122,6 +130,18 @@
             variant="text"
           />
         </div>
+        <v-divider
+          class="d-none d-md-flex align-self-center"
+          style="height: 24px"
+          vertical
+        />
+        <v-btn
+          color="primary"
+          density="comfortable"
+          icon="mdi-chevron-up"
+          variant="elevated"
+          @click="scrollToTop"
+        />
       </div>
       <div class="text-caption text-medium-emphasis mt-2">
         <a
