@@ -5,7 +5,7 @@
     elevation="10"
     rounded="xl"
   >
-    <v-img cover height="250" :src="image" />
+    <v-img contain height="250" :src="image" />
 
     <v-card-item
       class="px-4 px-sm-6 pt-4 pt-sm-6 pb-2"
@@ -94,10 +94,11 @@
         variant="tonal"
       >Demo</v-btn>
       <v-btn
+        color="black"
         :href="repo"
         prepend-icon="mdi-github"
         target="_blank"
-        variant="text"
+        variant="flat"
       >Código</v-btn>
     </v-card-actions>
   </v-card>

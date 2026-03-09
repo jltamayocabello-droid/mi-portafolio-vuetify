@@ -539,7 +539,7 @@
     { name: 'Bootstrap 5', color: 'purple', icon: 'mdi-bootstrap' },
     { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
     { name: 'Netlify', color: 'teal', icon: 'mdi-cloud-upload' },
-    { name: 'Vercel', color: 'black', icon: 'mdi-triangle' },
+    { name: 'Vercel', color: 'grey-lighten-1', icon: 'mdi-triangle' },
   ]
 
   const librarySkills = [
@@ -575,7 +575,7 @@
 
   const projects = [
     {
-      title: '🚀 Product Showcase SPA',
+      title: '🚀 Product Showcase',
       challenge:
         'Desarrollar una SPA de alto impacto visual para un departamento de E-commerce, capaz de gestionar un catálogo dinámico con stock en tiempo real. El reto principal fue integrar una base de datos NoSQL y un sistema de autenticación, asegurando una experiencia de usuario fluida con estética Glassmorphism y protección de rutas administrativas.',
       decisions: [
@@ -586,8 +586,7 @@
         'Lógica de Negocio: Desarrollo de un buscador inteligente y validaciones de stock dinámicas para optimizar la conversión en el flujo de compra',
       ],
       tags: ['Vue 3', 'Pinia', 'Firebase', 'Vuetify', 'Vite'],
-      image:
-        'https://placehold.co/800x450/1E1E1E/4FC08D?text=Product+Showcase+SPA',
+      image: 'src/assets/images/showcase.png',
       demo: 'https://product-showcase-vue.netlify.app/',
       repo: 'https://github.com/jltamayocabello-droid/m7_abp_product-showcase',
     },
@@ -603,7 +602,7 @@
         'Integración de API Externa: Consumo de Open Library API para portadas dinámicas, reduciendo el peso del bundle y automatizando la carga de activos.',
       ],
       tags: ['Vue 3', 'Pinia', 'Vue Router 4', 'Vite', 'Vercel'],
-      image: 'https://placehold.co/800x450/1E1E1E/ffe162?text=Booklist+SPA',
+      image: 'src/assets/images/BookList.png',
       demo: 'https://m6-abp-booklist-spa.vercel.app/',
       repo: 'https://github.com/jltamayocabello-droid/m6_abp_booklist-spa',
     },
@@ -618,7 +617,7 @@
         'Optimización de Rendimiento: Reduje el peso del bundle mediante la compresión de activos y la limpieza de código, garantizando una navegación ligera y eficiente.',
       ],
       tags: ['SASS', 'BEM', 'Bootstrap 5', 'Flexbox', 'CSS Grid'],
-      image: 'https://placehold.co/800x450/1E1E1E/4FC08D?text=SmartBudget',
+      image: 'src/assets/images/SmartBudget.png',
       demo: 'https://jltamayocabello-droid.github.io/m3-abp-smartbudget/',
       repo: 'https://github.com/jltamayocabello-droid/m3-abp-smartbudget',
     },
