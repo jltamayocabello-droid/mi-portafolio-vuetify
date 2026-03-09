@@ -133,17 +133,24 @@
           @click="scrollToTop"
         />
       </div>
-      <div class="text-caption text-medium-emphasis mt-2 d-flex align-center">
+      <div
+        class="text-caption text-medium-emphasis mt-4 text-center w-100 px-4"
+      >
         <a
           href="https://creativecommons.org/licenses/by-nc/4.0/"
           rel="noopener noreferrer"
           style="color: inherit; text-decoration: none"
           target="_blank"
         >
-          <v-icon icon="mdi-creative-commons" size="14" />
+          <v-icon
+            class="mr-1"
+            icon="mdi-creative-commons"
+            size="16"
+            style="vertical-align: text-bottom"
+          />
         </a>
-        &nbsp;{{ new Date().getFullYear() }} — Portafolio desarrollado con Vue 3
-        &amp; Vuetify
+        {{ new Date().getFullYear() }} — Portafolio desarrollado con Vue 3 &amp;
+        Vuetify
       </div>
     </v-footer>
   </v-app>
