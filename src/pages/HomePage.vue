@@ -712,46 +712,46 @@
     },
     {
       year: '2025',
-      title: 'Aprende Data Science: Cuenta Historias con los Datos',
-      provider: 'Microsoft · LinkedIn',
-      color: 'secondary',
-    },
-    {
-      year: '2025',
-      title: 'Aprende Data Science: Conceptos Básicos',
-      provider: 'Microsoft · LinkedIn',
-      color: 'secondary',
-    },
-    {
-      year: '2025',
-      title: 'Aprende Análisis de Datos: Ampliación y Aplicación',
-      provider: 'Microsoft · LinkedIn',
-      color: 'secondary',
-    },
-    {
-      year: '2025',
-      title: 'Aprende Análisis de Datos: Fundamentos',
-      provider: 'Microsoft · LinkedIn',
-      color: 'secondary',
+      title: 'Fundamentos esenciales de la programación',
+      provider: 'LinkedIn Learning',
+      color: 'primary',
     },
     {
       year: '2025',
       title: 'Introducción a las Habilidades Profesionales en Análisis de Datos',
-      provider: 'Microsoft · LinkedIn',
-      color: 'secondary',
+      provider: 'Microsoft · LinkedIn Learning',
+      color: 'primary',
+    },
+    {
+      year: '2025',
+      title: 'Aprende Data Science: Cuenta Historias con los Datos',
+      provider: 'Microsoft · LinkedIn Learning',
+      color: 'primary',
+    },
+    {
+      year: '2025',
+      title: 'Aprende Data Science: Conceptos Básicos',
+      provider: 'Microsoft · LinkedIn Learning',
+      color: 'primary',
+    },
+    {
+      year: '2025',
+      title: 'Aprende Análisis de Datos: Ampliación y Aplicación',
+      provider: 'Microsoft · LinkedIn Learning',
+      color: 'primary',
+    },
+    {
+      year: '2025',
+      title: 'Aprende Análisis de Datos: Fundamentos',
+      provider: 'Microsoft · LinkedIn Learning',
+      color: 'primary',
     },
     {
       year: '2024',
       title:
         'Introducción a la Ciencia Abierta: Una Aproximación a los Datos de Investigación y Publicación en Abierto',
       provider: 'Bibliotecas de la Pontificia Universidad Católica de Chile',
-      color: 'grey',
-    },
-    {
-      year: '2024',
-      title: 'Gestión del Talento Humano',
-      provider: 'Coursera · Universidad Nacional Autónoma de México',
-      color: 'grey',
+      color: 'secondary',
     },
     {
       year: '2023',
@@ -762,7 +762,7 @@
     {
       year: '2022',
       title: 'Identidad y Bienestar Digital',
-      provider: 'Escuela de Competencias Digitales PUC',
+      provider: 'Escuela de Competencias Digitales PUC · SENCE',
       color: 'grey',
     },
     {
@@ -812,13 +812,6 @@
       year: '2020',
       title: 'Ciberseguridad',
       provider: 'Escuela de Cumplimiento, SENCE',
-      color: 'grey',
-    },
-    {
-      year: '2020',
-      title:
-        'Autoliderazgo y gestión de emociones para avanzar en desafíos complejos',
-      provider: 'Coursera · Universidad de Los Andes, Colombia',
       color: 'grey',
     },
   ]
