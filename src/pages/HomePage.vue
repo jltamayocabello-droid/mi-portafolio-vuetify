@@ -72,10 +72,13 @@
 
       <!-- Divider animado -->
       <div class="hero-scroll-indicator">
-        <v-icon
+        <v-btn
           class="scroll-bounce"
           color="primary"
+          href="#about-section"
           icon="mdi-chevron-double-down"
+          :ripple="false"
+          variant="plain"
         />
       </div>
     </v-container>
@@ -84,7 +87,7 @@
   <!-- ===========================
        ABOUT ME & SKILLS SECTION
   ============================ -->
-  <section class="about-section py-16">
+  <section id="about-section" class="about-section py-16">
     <v-container>
       <div class="section-header text-center mb-12">
         <v-chip class="mb-4" color="secondary" size="small" variant="tonal">
