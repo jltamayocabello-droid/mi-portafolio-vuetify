@@ -665,11 +665,11 @@
       color: 'primary',
     },
     {
-      title: 'Asistente de Edición de Textos y Transcripciones',
+      title: 'Edición de Textos y Transcripciones',
       institution:
         'Bernabé Santelices (Premio Nacional de Ciencias Naturales 2012)',
       description:
-        'Preparación técnica y formalización de textos académicos siguiendo normativas internacionales (ISO/APA). Ejecución de procesos de transcripción, edición y encuadernación de investigaciones para la conformación de portafolios académicos',
+        'Preparación y transcripción de textos académicos siguiendo normativas internacionales (ISO/APA). Se recopilan, transcriben, editan y encuadernan investigaciones para la conformación de portafolio académico',
       years: '2016–2017',
       color: 'primary',
     },
