@@ -669,7 +669,7 @@
       institution:
         'Bernabé Santelices (Premio Nacional de Ciencias Naturales 2012)',
       description:
-        'Preparación y transcripción de textos académicos siguiendo normativas internacionales (ISO/APA). Se recopilan, transcriben, editan y encuadernan investigaciones para la conformación de portafolio académico',
+        'Preparación y transcripción de textos académicos siguiendo normativas internacionales (ISO/APA). Se recopilan, transcriben, editan y encuadernan investigaciones para la conformación de portafolio académico.',
       years: '2016–2017',
       color: 'primary',
     },
@@ -685,7 +685,7 @@
       title: 'Documentación y Catalogación de Fotografías',
       institution: 'Centro Nacional Fotográfico (CENFOTO), UDP',
       description:
-        'Documentación y catalogación de fotografías y álbumes del siglo XIX comprados por UDP y conservadas en comodato en CENFOTO. Tarea realizada en el contexto de la Licenciatura en Historia',
+        'Documentación y catalogación de fotografías y álbumes del siglo XIX comprados por UDP y conservadas en comodato en CENFOTO. Tarea realizada en el contexto de la Licenciatura en Historia.',
       years: 'Jul–Dic 2010',
       color: 'grey',
     },
@@ -693,7 +693,7 @@
       title: 'Documentación de Colecciones Audiovisuales',
       institution: 'Museo de la Educación Gabriela Mistral (MEGM)',
       description:
-        'Documentación de colecciones del fondo audiovisual donado por la Cineteca Nacional a MEGM. Tarea realizada en el contexto de la Licenciatura en Historia',
+        'Documentación de colecciones del fondo audiovisual donado por la Cineteca Nacional a MEGM. Tarea realizada en el contexto de la Licenciatura en Historia.',
       years: 'Mar–Jun 2011',
       color: 'grey',
     },
