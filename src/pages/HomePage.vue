@@ -390,7 +390,7 @@
           </v-col>
 
           <!-- EXPERIENCIA LABORAL -->
-          <v-col class="mt-12 pt-12 mt-md-0 pt-md-3" cols="12" md="6">
+          <v-col class="mt-12 mt-md-0" cols="12" md="6">
             <div class="mb-6">
               <v-chip class="mb-6" color="primary" size="small" variant="tonal">
                 <v-icon icon="mdi-briefcase-outline" start />
@@ -465,8 +465,8 @@
         </v-row>
 
         <!-- CURSOS Y CERTIFICACIONES -->
-        <div class="mt-12 mb-12 py-12">
-          <div class="text-center mb-8">
+        <div class="mt-16 pt-8">
+          <div class="text-center mb-10">
             <h3 class="text-h5 font-weight-bold">Aprendizaje Continuo</h3>
             <v-chip class="mb-4" color="secondary" size="small" variant="tonal">
               <v-icon icon="mdi-certificate-outline" start />

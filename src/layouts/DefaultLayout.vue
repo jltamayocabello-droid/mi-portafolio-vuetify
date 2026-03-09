@@ -133,7 +133,7 @@
           @click="scrollToTop"
         />
       </div>
-      <div class="text-caption text-medium-emphasis mt-2">
+      <div class="text-caption text-medium-emphasis mt-2 d-flex align-center">
         <a
           href="https://creativecommons.org/licenses/by-nc/4.0/"
           rel="noopener noreferrer"
