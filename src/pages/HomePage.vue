@@ -519,6 +519,10 @@
 
 <script setup>
   import { ref } from 'vue'
+  import booklistImg from '@/assets/images/BookList.png'
+
+  import showcaseImg from '@/assets/images/showcase.png'
+  import smartbudgetImg from '@/assets/images/SmartBudget.png'
   import ProjectCard from '@/components/ProjectCard.vue'
 
   const expandedJobs = ref({})
@@ -586,7 +590,7 @@
         'Lógica de Negocio: Desarrollo de un buscador inteligente y validaciones de stock dinámicas para optimizar la conversión en el flujo de compra',
       ],
       tags: ['Vue 3', 'Pinia', 'Firebase', 'Vuetify', 'Vite'],
-      image: 'src/assets/images/showcase.png',
+      image: showcaseImg,
       demo: 'https://product-showcase-vue.netlify.app/',
       repo: 'https://github.com/jltamayocabello-droid/m7_abp_product-showcase',
     },
@@ -602,7 +606,7 @@
         'Integración de API Externa: Consumo de Open Library API para portadas dinámicas, reduciendo el peso del bundle y automatizando la carga de activos.',
       ],
       tags: ['Vue 3', 'Pinia', 'Vue Router 4', 'Vite', 'Vercel'],
-      image: 'src/assets/images/BookList.png',
+      image: booklistImg,
       demo: 'https://m6-abp-booklist-spa.vercel.app/',
       repo: 'https://github.com/jltamayocabello-droid/m6_abp_booklist-spa',
     },
@@ -617,7 +621,7 @@
         'Optimización de Rendimiento: Reduje el peso del bundle mediante la compresión de activos y la limpieza de código, garantizando una navegación ligera y eficiente.',
       ],
       tags: ['SASS', 'BEM', 'Bootstrap 5', 'Flexbox', 'CSS Grid'],
-      image: 'src/assets/images/SmartBudget.png',
+      image: smartbudgetImg,
       demo: 'https://jltamayocabello-droid.github.io/m3-abp-smartbudget/',
       repo: 'https://github.com/jltamayocabello-droid/m3-abp-smartbudget',
     },
