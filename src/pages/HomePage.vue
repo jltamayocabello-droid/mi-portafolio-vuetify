@@ -359,14 +359,14 @@
                 size="small"
               >
                 <v-card
-                  class="education-card pa-4"
+                  class="education-card pa-4 pa-sm-5 d-flex flex-column h-100"
                   color="surface"
                   elevation="2"
-                  min-height="250"
+                  min-height="180"
                   rounded="lg"
                   width="100%"
                 >
-                  <div class="d-flex flex-column align-start gap-2">
+                  <div class="d-flex flex-column align-start h-100 w-100">
                     <v-chip
                       class="mb-1"
                       :color="edu.color"
@@ -375,7 +375,7 @@
                     >
                       {{ edu.years }}
                     </v-chip>
-                    <div>
+                    <div class="flex-grow-1 w-100">
                       <h4 class="text-body-1 font-weight-bold mb-1">
                         {{ edu.title }}
                       </h4>
@@ -405,14 +405,14 @@
                 size="small"
               >
                 <v-card
-                  class="education-card pa-4"
+                  class="education-card pa-4 pa-sm-5 d-flex flex-column h-100"
                   color="surface"
                   elevation="2"
-                  min-height="150"
+                  min-height="180"
                   rounded="lg"
                   width="100%"
                 >
-                  <div class="d-flex flex-column align-start gap-2">
+                  <div class="d-flex flex-column align-start h-100 w-100">
                     <v-chip
                       class="mb-1"
                       :color="job.color"
@@ -421,18 +421,41 @@
                     >
                       {{ job.years }}
                     </v-chip>
-                    <div>
+                    <div class="flex-grow-1 w-100">
                       <h4 class="text-body-1 font-weight-bold mb-1">
                         {{ job.title }}
                       </h4>
-                      <p class="text-caption text-secondary mb-1">
+                      <p class="text-caption text-secondary mb-2">
                         {{ job.institution }}
                       </p>
                       <p
                         class="text-caption text-medium-emphasis mb-0 text-justify"
+                        :class="
+                          expandedJobs[job.title] ? '' : 'description-clamp'
+                        "
                       >
                         {{ job.description }}
                       </p>
+                      <div
+                        v-if="job.description && job.description.length > 180"
+                        class="d-flex justify-end mt-2"
+                      >
+                        <v-btn
+                          class="px-0 text-none"
+                          color="primary"
+                          size="small"
+                          variant="plain"
+                          @click="
+                            expandedJobs[job.title] = !expandedJobs[job.title]
+                          "
+                        >
+                          {{
+                            expandedJobs[job.title]
+                              ? "Mostrar menos"
+                              : "Leer más"
+                          }}
+                        </v-btn>
+                      </div>
                     </div>
                   </div>
                 </v-card>
@@ -459,21 +482,22 @@
               md="6"
             >
               <v-card
-                class="pa-4 h-100 course-card"
+                class="course-card pa-4 pa-sm-5 d-flex flex-column h-100"
                 color="surface"
                 elevation="2"
+                min-height="140"
                 rounded="lg"
               >
-                <div class="d-flex align-start gap-3">
+                <div class="d-flex align-start gap-3 h-100">
                   <v-chip
-                    class="flex-shrink-0 mt-1"
+                    class="flex-shrink-0 mt-1 mb-1"
                     :color="course.color"
                     size="x-small"
                     variant="tonal"
                   >
                     {{ course.year }}
                   </v-chip>
-                  <div>
+                  <div class="flex-grow-1">
                     <p class="text-body-2 font-weight-medium mb-1">
                       {{ course.title }}
                     </p>
@@ -492,11 +516,15 @@
 </template>
 
 <script setup>
+  import { ref } from 'vue'
   import ProjectCard from '@/components/ProjectCard.vue'
+
+  const expandedJobs = ref({})
 
   const devSkills = [
     { name: 'HTML5', color: 'orange', icon: 'mdi-language-html5' },
-    { name: 'CSS3', color: 'blue', icon: 'mdi-language-css3' }, { name: 'JavaScript', color: 'yellow', icon: 'mdi-language-javascript' },
+    { name: 'CSS3', color: 'blue', icon: 'mdi-language-css3' },
+    { name: 'JavaScript', color: 'yellow', icon: 'mdi-language-javascript' },
     { name: 'Vue 3', color: 'primary', icon: 'mdi-vuejs' },
     { name: 'Pinia', color: 'secondary', icon: 'mdi-pine-tree' },
     { name: 'Vuetify 3', color: 'primary', icon: 'mdi-palette-swatch' },
@@ -805,6 +833,14 @@
 
 .about-card {
   border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.description-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* Projects */
