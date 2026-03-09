@@ -33,9 +33,11 @@
       </p>
       <v-divider class="my-4" color="primary" thickness="2" width="50%" />
 
-      <div class="d-flex flex-wrap gap-3 justify-center mt-4 mb-10">
+      <div
+        class="d-flex flex-column flex-sm-row justify-center align-center ga-4 ga-sm-8 mt-6 mb-10 w-100 px-4 px-sm-0"
+      >
         <v-btn
-          class="me-4"
+          class="w-100 w-sm-auto"
           color="primary"
           href="#proyectos"
           prepend-icon="mdi-rocket-launch"
@@ -46,7 +48,7 @@
           Ver Proyectos
         </v-btn>
         <v-btn
-          class="me-4"
+          class="w-100 w-sm-auto"
           href="https://github.com/jltamayocabello-droid"
           prepend-icon="mdi-github"
           rounded="lg"
@@ -57,7 +59,7 @@
           GitHub
         </v-btn>
         <v-btn
-          class="me-4"
+          class="w-100 w-sm-auto"
           color="primary"
           href="https://www.linkedin.com/in/jorge-tamayo-c/"
           prepend-icon="mdi-linkedin"
