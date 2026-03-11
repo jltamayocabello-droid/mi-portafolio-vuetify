@@ -712,13 +712,13 @@
     },
     {
       year: '2025',
-      title: 'Fundamentos esenciales de la programación',
+      title: 'Fundamentos Esenciales de la Programación',
       provider: 'LinkedIn Learning',
       color: 'primary',
     },
     {
       year: '2025',
-      title: 'Fundamentos profesionales del análisis de datos',
+      title: 'Fundamentos Profesionales del Análisis de Datos',
       provider: 'Microsoft · LinkedIn Learning',
       color: 'primary',
     },
@@ -761,7 +761,7 @@
     },
     {
       year: '2023',
-      title: 'Nivel 2 "Maximiza el potencial de Microsoft 365"',
+      title: 'Nivel 2: Maximiza el potencial de Microsoft 365',
       provider: 'NoventiQ · Dirección de Transformación Digital, Pontificia Universidad Católica de Chile',
       color: 'grey',
     },
