@@ -144,7 +144,7 @@ Routing
 
 El proyecto está configurado para desplegarse en **[Vercel](https://vercel.com/)**, aprovechando su integración nativa con repositorios de GitHub para CI/CD automático en cada push a `main`.
 
-> ⚙️ _Enlace al deployment en vivo próximamente disponible._
+> ⚙️ **Deployment:** [Ver despliegue en vivo](https://mi-portafolio-vuetify.vercel.app/)
 
 ---
 
@@ -152,17 +152,20 @@ El proyecto está configurado para desplegarse en **[Vercel](https://vercel.com/
 
 ```
 mi-portafolio-vuetify/
+├── public/                 # Recursos públicos (favicon, etc.)
 ├── src/
-│   ├── components/         # Componentes reutilizables (ProjectCard, etc.)
-│   ├── layouts/            # Layout principal (navbar + footer)
+│   ├── assets/             # Imágenes y recursos dinámicos
+│   ├── components/         # Componentes reutilizables (ProjectCard.vue, etc.)
+│   ├── layouts/            # Layout principal (DefaultLayout.vue)
 │   ├── pages/              # Vistas de la SPA
-│   │   └── index.vue       # Hero + About + Projects
-│   ├── plugins/            # Registro de plugins (Vuetify, Pinia, Router)
-│   ├── router/             # Configuración de rutas
-│   ├── stores/             # Stores de Pinia
-│   └── styles/             # SASS global y variables
+│   │   └── HomePage.vue    # Hero + About + Projects + Trayectoria
+│   ├── plugins/            # Plugins (Vuetify, Pinia, Router)
+│   ├── router/             # Configuración de rutas (appRouter.js)
+│   ├── stores/             # Stores de Pinia (appStore.js)
+│   └── styles/             # SASS global y configuraciones (.scss)
 ├── index.html
 ├── vite.config.js
+├── vercel.json             # Configuración de despliegue Vercel
 └── package.json
 ```
 
