@@ -629,7 +629,7 @@
 
   const academicBackground = [
     {
-      title: 'Egresado del Magíster en Historia y Ciencias Sociales',
+      title: 'Egresado Magíster en Historia y Ciencias Sociales',
       institution: 'Universidad ARCIS',
       years: '2012–2013',
       color: 'secondary',
