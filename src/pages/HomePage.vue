@@ -629,15 +629,21 @@
 
   const academicBackground = [
     {
-      title: 'Diplomado de Honores en Pensamiento Contemporáneo',
-      institution: 'Instituto de Humanidades, Universidad Diego Portales (UDP)',
-      years: '2011',
+      title: 'Egresado del Magíster en Historia y Ciencias Sociales',
+      institution: 'Universidad ARCIS',
+      years: '2012–2013',
       color: 'secondary',
     },
     {
       title: 'Licenciatura en Historia',
       institution: 'Universidad Diego Portales (UDP)',
       years: '2008–2011',
+      color: 'secondary',
+    },
+    {
+      title: 'Diplomado de Honores en Pensamiento Contemporáneo',
+      institution: 'Instituto de Humanidades, Universidad Diego Portales (UDP)',
+      years: '2011',
       color: 'secondary',
     },
   ]
