@@ -29,7 +29,7 @@
         Desarrollador Front-End
       </p>
       <p class="text-h5 text-sm-h4 font-weight-black mb-4 hero-title">
-        Historiador e Investigador independiente | Asistente de biblioteca
+        Historiador & Especialista en Gestión Documental
       </p>
       <v-divider class="my-4" color="primary" thickness="2" width="50%" />
 
@@ -629,7 +629,7 @@
 
   const academicBackground = [
     {
-      title: 'Egresado Magíster en Historia y Ciencias Sociales',
+      title: 'Egresado de Magíster en Historia y Ciencias Sociales',
       institution: 'Universidad ARCIS',
       years: '2012–2013',
       color: 'secondary',
