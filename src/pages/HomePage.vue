@@ -711,59 +711,77 @@
 
   const courses = [
     {
+      year: '2026',
+      title: 'Inmersión DEV Agentes de AI',
+      provider: 'United Latino Students Association',
+      color: 'primary',
+    },
+    {
+      year: '2026',
+      title: 'Iniciación al desarrollo con IA: de 0 a producción',
+      provider: 'BIG school',
+      color: 'primary',
+    },
+    {
+      year: '2026',
+      title: 'Introducción a la programación con Python',
+      provider: 'Santander Open Academy',
+      color: 'primary',
+    },
+    {
       year: '2025',
       title: 'Inmersión IA con Google Gemini',
       provider: 'Alura · Google',
-      color: 'primary',
+      color: 'secondary',
     },
     {
       year: '2025',
       title: 'Fundamentos Esenciales de la Programación',
       provider: 'LinkedIn Learning',
-      color: 'primary',
+      color: 'secondary',
     },
     {
       year: '2025',
       title: 'Fundamentos Profesionales del Análisis de Datos',
       provider: 'Microsoft · LinkedIn Learning',
-      color: 'primary',
+      color: 'secondary',
     },
     {
       year: '2025',
       title: 'Aprende Análisis de Datos: Ampliación y Aplicación',
       provider: 'Microsoft · LinkedIn Learning',
-      color: 'primary',
+      color: 'secondary',
     },
     {
       year: '2025',
       title: 'Aprende Análisis de Datos: Fundamentos',
       provider: 'Microsoft · LinkedIn Learning',
-      color: 'primary',
+      color: 'secondary',
     },
     {
       year: '2025',
       title: 'Introducción a las Habilidades Profesionales en Análisis de Datos',
       provider: 'Microsoft · LinkedIn Learning',
-      color: 'primary',
+      color: 'secondary',
     },
     {
       year: '2025',
       title: 'Aprende Data Science: Cuenta Historias con los Datos',
       provider: 'Microsoft · LinkedIn Learning',
-      color: 'primary',
+      color: 'secondary',
     },
     {
       year: '2025',
       title: 'Aprende Data Science: Conceptos Básicos',
       provider: 'Microsoft · LinkedIn Learning',
-      color: 'primary',
+      color: 'secondary',
     },
     {
       year: '2024',
       title:
         'Introducción a la Ciencia Abierta: Una Aproximación a los Datos de Investigación y Publicación en Abierto',
       provider: 'Bibliotecas de la Pontificia Universidad Católica de Chile',
-      color: 'secondary',
+      color: 'grey',
     },
     {
       year: '2023',
