@@ -544,6 +544,7 @@
     { name: 'Netlify', color: 'teal', icon: 'mdi-cloud-upload' },
     { name: 'Vercel', color: 'grey-lighten-1', icon: 'mdi-triangle' },
     { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
+    { name: 'Python', color: 'blue', icon: 'mdi-language-python' },
   ]
 
   const librarySkills = [
@@ -568,6 +569,7 @@
     { name: 'Gemini', color: 'blue', icon: 'mdi-creation' },
     { name: 'Perplexity', color: 'green', icon: 'mdi-head-lightbulb' },
     { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-robot-outline' },
+    { name: 'Google Antigravity', color: 'primary', icon: 'mdi-robot-astronaut' },
   ]
 
   const differentiators = [
