@@ -720,13 +720,13 @@
     },
     {
       year: '2026',
-      title: 'Iniciación al desarrollo con IA: de 0 a producción',
+      title: 'Iniciación al Desarrollo con IA: de 0 a Producción',
       provider: 'BIG school',
       color: 'primary',
     },
     {
       year: '2026',
-      title: 'Introducción a la programación con Python',
+      title: 'Introducción a la Programación con Python',
       provider: 'Santander Open Academy',
       color: 'primary',
     },
