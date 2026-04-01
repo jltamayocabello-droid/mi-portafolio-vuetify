@@ -569,7 +569,7 @@
     { name: 'Gemini', color: 'blue', icon: 'mdi-creation' },
     { name: 'Perplexity', color: 'green', icon: 'mdi-head-lightbulb' },
     { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-robot-outline' },
-    { name: 'Google Antigravity', color: 'primary', icon: 'mdi-robot-astronaut' },
+    { name: 'Google Antigravity', color: 'primary', icon: 'mdi-robot' },
   ]
 
   const differentiators = [
