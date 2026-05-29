@@ -714,6 +714,12 @@
   const courses = [
     {
       year: '2026',
+      title: 'Cursor con Python: desarrollo inteligente con IA',
+      provider: 'Santander Open Academy',
+      color: 'primary',
+    },
+    {
+      year: '2026',
       title: 'Copilot: domina la IA en Microsoft 365',
       provider: 'Santander Open Academy',
       color: 'primary',
