@@ -556,6 +556,7 @@
     },
     { name: 'Zotero', color: 'green', icon: 'mdi-bookmark-multiple' },
     { name: 'Microsoft 365', color: 'orange', icon: 'mdi-microsoft' },
+    { name: 'SharePoint', color: 'blue', icon: 'mdi-microsoft-sharepoint' },
     { name: 'Microsoft Access', color: 'orange', icon: 'mdi-database' },
   ]
 
@@ -569,6 +570,7 @@
     { name: 'Gemini', color: 'blue', icon: 'mdi-creation' },
     { name: 'Perplexity', color: 'green', icon: 'mdi-head-lightbulb' },
     { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-robot-outline' },
+    { name: 'Cursor', color: 'purple', icon: 'mdi-cursor-default-outline' },
     { name: 'Google Antigravity', color: 'primary', icon: 'mdi-robot' },
   ]
 
@@ -757,24 +759,6 @@
     {
       year: '2025',
       title: 'Fundamentos Profesionales del Análisis de Datos',
-      provider: 'Microsoft · LinkedIn Learning',
-      color: 'secondary',
-    },
-    {
-      year: '2025',
-      title: 'Aprende Análisis de Datos: Ampliación y Aplicación',
-      provider: 'Microsoft · LinkedIn Learning',
-      color: 'secondary',
-    },
-    {
-      year: '2025',
-      title: 'Aprende Análisis de Datos: Fundamentos',
-      provider: 'Microsoft · LinkedIn Learning',
-      color: 'secondary',
-    },
-    {
-      year: '2025',
-      title: 'Introducción a las Habilidades Profesionales en Análisis de Datos',
       provider: 'Microsoft · LinkedIn Learning',
       color: 'secondary',
     },
