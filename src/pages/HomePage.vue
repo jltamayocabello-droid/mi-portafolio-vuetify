@@ -231,25 +231,6 @@
             </div>
           </div>
 
-          <div class="ms-4 mx-4">
-            <h3 class="text-h6 font-weight-bold mb-4">
-              <v-icon class="mr-2" color="secondary" icon="mdi-star" />
-              Lo que me diferencia
-            </h3>
-            <v-list bg-color="transparent" density="compact">
-              <v-list-item
-                v-for="point in differentiators"
-                :key="point"
-                base-color="primary"
-                class="px-0 align-start"
-                prepend-icon="mdi-check-circle"
-              >
-                <v-list-item-title class="text-wrap">
-                  {{ point }}
-                </v-list-item-title>
-              </v-list-item>
-            </v-list>
-          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -620,13 +601,6 @@
     { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-robot-outline' },
     { name: 'Cursor', color: 'purple', icon: 'mdi-cursor-default-outline' },
     { name: 'Google Antigravity', color: 'primary', icon: 'mdi-robot' },
-  ]
-
-  const differentiators = [
-    'Lógica reutilizable y mantenible mediante Composition API y Composables, reduciendo la deuda técnica.',
-    'Gestión de flujos de datos centralizados y eficientes, optimizando la reactividad.',
-    'Desarrollo basado en sobriedad digital, priorizando el alto rendimiento y la eficiencia de recursos.',
-    'Estándares de Clean Code para entregar productos escalables, limpios y fáciles de testear.',
   ]
 
   const projects = [
