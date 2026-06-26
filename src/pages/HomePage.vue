@@ -185,7 +185,7 @@
                   :key="skill.name"
                   class="font-weight-medium"
                   :color="skill.color"
-                  size="default"
+                  size="small"
                   variant="tonal"
                 >
                   <v-icon :icon="skill.icon" start />
@@ -203,7 +203,7 @@
                   :key="skill.name"
                   class="font-weight-medium"
                   :color="skill.color"
-                  size="default"
+                  size="small"
                   variant="tonal"
                 >
                   <v-icon :icon="skill.icon" start />
@@ -221,7 +221,7 @@
                   :key="skill.name"
                   class="font-weight-medium"
                   :color="skill.color"
-                  size="default"
+                  size="small"
                   variant="tonal"
                 >
                   <v-icon :icon="skill.icon" start />
