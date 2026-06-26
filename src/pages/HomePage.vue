@@ -149,18 +149,30 @@
                 <v-icon class="mr-1" icon="mdi-code-braces" size="14" />
                 Desarrollo
               </p>
-              <div class="d-flex flex-wrap gap-2 mb-4">
-                <v-chip
-                  v-for="skill in devSkills"
-                  :key="skill.name"
-                  class="font-weight-medium"
-                  :color="skill.color"
-                  size="default"
-                  variant="tonal"
+              <div class="mb-4">
+                <div
+                  v-for="group in devSkillsGroups"
+                  :key="group.name"
+                  class="mb-3"
                 >
-                  <v-icon :icon="skill.icon" start />
-                  {{ skill.name }}
-                </v-chip>
+                  <div class="text-caption text-medium-emphasis d-flex align-center mb-1 ms-1">
+                    <v-icon :icon="group.icon" class="mr-2" size="13" />
+                    <span class="font-weight-medium">{{ group.name }}</span>
+                  </div>
+                  <div class="d-flex flex-wrap gap-2 ms-4">
+                    <v-chip
+                      v-for="skill in group.skills"
+                      :key="skill.name"
+                      class="font-weight-medium"
+                      :color="skill.color"
+                      size="small"
+                      variant="tonal"
+                    >
+                      <v-icon :icon="skill.icon" start />
+                      {{ skill.name }}
+                    </v-chip>
+                  </div>
+                </div>
               </div>
 
               <p class="text-caption text-medium-emphasis mb-2">
@@ -527,24 +539,60 @@
 
   const expandedJobs = ref({})
 
-  const devSkills = [
-    { name: 'HTML5', color: 'orange', icon: 'mdi-language-html5' },
-    { name: 'CSS3', color: 'blue', icon: 'mdi-language-css3' },
-    { name: 'JavaScript', color: 'yellow', icon: 'mdi-language-javascript' },
-    { name: 'SASS', color: 'pink', icon: 'mdi-sass' },
-    { name: 'BEM', color: 'grey', icon: 'mdi-code-braces-box' },
-    { name: 'Vue 3', color: 'primary', icon: 'mdi-vuejs' },
-    { name: 'Vuetify 3', color: 'primary', icon: 'mdi-palette-swatch' },
-    { name: 'Bootstrap 5', color: 'purple', icon: 'mdi-bootstrap' },
-    { name: 'WordPress', color: 'blue-darken-2', icon: 'mdi-wordpress' },
-    { name: 'Pinia', color: 'secondary', icon: 'mdi-pine-tree' },
-    { name: 'Vue Router 4', color: 'primary', icon: 'mdi-router' },
-    { name: 'Vite', color: 'secondary', icon: 'mdi-lightning-bolt' },
-    { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
-    { name: 'Netlify', color: 'teal', icon: 'mdi-cloud-upload' },
-    { name: 'Vercel', color: 'grey-lighten-1', icon: 'mdi-triangle' },
-    { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
-    { name: 'Python', color: 'blue', icon: 'mdi-language-python' },
+  const devSkillsGroups = [
+    {
+      name: 'Lenguajes',
+      icon: 'mdi-xml',
+      skills: [
+        { name: 'HTML5', color: 'orange', icon: 'mdi-language-html5' },
+        { name: 'CSS3', color: 'blue', icon: 'mdi-language-css3' },
+        { name: 'JavaScript', color: 'yellow', icon: 'mdi-language-javascript' },
+        { name: 'Python', color: 'blue', icon: 'mdi-language-python' },
+      ],
+    },
+    {
+      name: 'Frameworks & Estado',
+      icon: 'mdi-vuejs',
+      skills: [
+        { name: 'Vue 3', color: 'primary', icon: 'mdi-vuejs' },
+        { name: 'Pinia', color: 'secondary', icon: 'mdi-pine-tree' },
+        { name: 'Vue Router 4', color: 'primary', icon: 'mdi-router' },
+        { name: 'Vuetify 3', color: 'primary', icon: 'mdi-palette-swatch' },
+        { name: 'Bootstrap 5', color: 'purple', icon: 'mdi-bootstrap' },
+      ],
+    },
+    {
+      name: 'Estilos & Metodologías',
+      icon: 'mdi-palette',
+      skills: [
+        { name: 'SASS', color: 'pink', icon: 'mdi-sass' },
+        { name: 'BEM', color: 'grey', icon: 'mdi-code-braces-box' },
+      ],
+    },
+    {
+      name: 'Backend & Firebase',
+      icon: 'mdi-database',
+      skills: [
+        { name: 'Firebase', color: 'orange', icon: 'mdi-firebase' },
+      ],
+    },
+    {
+      name: 'Herramientas & Hosting',
+      icon: 'mdi-wrench',
+      skills: [
+        { name: 'Vite', color: 'secondary', icon: 'mdi-lightning-bolt' },
+        { name: 'Git & GitHub', color: 'grey', icon: 'mdi-github' },
+        { name: 'Netlify', color: 'teal', icon: 'mdi-cloud-upload' },
+        { name: 'Vercel', color: 'grey-lighten-1', icon: 'mdi-triangle' },
+      ],
+    },
+    {
+      name: 'CMS',
+      icon: 'mdi-wordpress',
+      skills: [
+        { name: 'WordPress', color: 'blue-darken-2', icon: 'mdi-wordpress' },
+      ],
+    },
   ]
 
   const librarySkills = [
