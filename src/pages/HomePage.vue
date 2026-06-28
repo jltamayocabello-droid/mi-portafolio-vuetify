@@ -277,8 +277,7 @@
             <v-icon class="mb-4" color="primary" icon="mdi-rocket" size="48" />
             <h3 class="text-h6 font-weight-bold mb-2">✨ Próximamente</h3>
             <p class="text-body-2 text-medium-emphasis">
-              Nuevos proyectos explorando el mundo del Backend y la integración
-              con IA.
+              Nuevos proyectos explorando el mundo del Backend y el Diseño UX.
             </p>
           </v-card>
         </v-col>
@@ -842,13 +841,13 @@
     },
     {
       year: '2021',
-      title: 'Competencias Digitales: Conceptos y Herramientas Básicas',
+      title: 'Competencias Digitales: Herramientas de Ofimática',
       provider: 'Coursera · Universitat Autónoma de Barcelona',
       color: 'grey',
     },
     {
       year: '2021',
-      title: 'Competencias Digitales: Herramientas de Ofimática',
+      title: 'Competencias Digitales: Conceptos y Herramientas Básicas',
       provider: 'Coursera · Universitat Autónoma de Barcelona',
       color: 'grey',
     },
