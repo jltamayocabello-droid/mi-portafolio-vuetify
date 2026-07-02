@@ -784,18 +784,6 @@
       color: 'secondary',
     },
     {
-      year: '2025',
-      title: 'Aprende Data Science: Cuenta Historias con los Datos',
-      provider: 'Microsoft · LinkedIn Learning',
-      color: 'secondary',
-    },
-    {
-      year: '2025',
-      title: 'Aprende Data Science: Conceptos Básicos',
-      provider: 'Microsoft · LinkedIn Learning',
-      color: 'secondary',
-    },
-    {
       year: '2024',
       title:
         'Introducción a la Ciencia Abierta: Una Aproximación a los Datos de Investigación y Publicación en Abierto',
