@@ -845,12 +845,6 @@
       provider: 'SASI · VGroup',
       color: 'grey',
     },
-    {
-      year: '2020',
-      title: 'Ciberseguridad',
-      provider: 'Escuela de Cumplimiento, SENCE',
-      color: 'grey',
-    },
   ]
 </script>
 
