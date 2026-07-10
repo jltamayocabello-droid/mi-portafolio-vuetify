@@ -798,12 +798,6 @@
     },
     {
       year: '2022',
-      title: 'Identidad y Bienestar Digital',
-      provider: 'Escuela de Competencias Digitales PUC · SENCE',
-      color: 'grey',
-    },
-    {
-      year: '2022',
       title: 'Fundamentos de la Escritura ',
       provider: 'Coursera · Tecnológico de Monterrey',
       color: 'grey',
