@@ -29,7 +29,7 @@
         Desarrollador Front-End
       </p>
       <p class="text-h5 text-sm-h4 font-weight-black mb-4 hero-title">
-        Historiador con experiencia Gestión de Información
+        Historiador con experiencia en Gestión de Información
       </p>
       <v-divider class="my-4" color="primary" thickness="2" width="50%" />
 
