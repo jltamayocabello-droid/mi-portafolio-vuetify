@@ -26,10 +26,10 @@
         Jorge <span class="text-primary">Tamayo</span>
       </h1>
       <p class="text-h5 text-sm-h4 font-weight-black mb-4 hero-title">
-        Desarrollador Front-End
+        Historiador
       </p>
       <p class="text-h5 text-sm-h4 font-weight-black mb-4 hero-title">
-        Historiador & Especialista en Gestión Documental
+        Gestión de Información | Desarrollo Front-End
       </p>
       <v-divider class="my-4" color="primary" thickness="2" width="50%" />
 
