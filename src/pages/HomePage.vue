@@ -117,10 +117,10 @@
               >
               <div class="text-justify">
                 <p class="text-body-1 text-medium-emphasis mb-4">
-                  Soy Historiador y Desarrollador Front-End. Durante años trabajé gestionando información, documentación e investigación en bibliotecas universitarias, experiencia que me enseñó a analizar problemas de forma rigurosa, organizar información compleja y mantener una fuerte orientación hacia las necesidades de las personas.
+                  Soy <strong class="text-primary">Historiador</strong> y <strong class="text-primary">Desarrollador Front-End</strong>. Durante años trabajé gestionando información, documentación e investigación en bibliotecas universitarias, experiencia que me enseñó a <strong class="text-primary">analizar problemas de forma rigurosa</strong>, organizar información compleja y mantener una fuerte <strong class="text-primary">orientación hacia las necesidades de las personas</strong>.
                 </p>
                 <p class="text-body-1 text-medium-emphasis">
-                  Hoy canalizo esas habilidades en el desarrollo de aplicaciones web con Vue.js, JavaScript, Pinia y Vuetify, creando interfaces modernas, responsivas y fáciles de usar. Me apasiona aprender nuevas tecnologías y explorar cómo el desarrollo web, el Diseño UX y la inteligencia artificial pueden contribuir a construir experiencias digitales más útiles, accesibles y significativas.
+                  Hoy canalizo esas habilidades en el <strong class="text-primary">desarrollo de aplicaciones web</strong> con <strong class="text-primary">Vue.js, JavaScript, Pinia y Vuetify</strong>, creando interfaces modernas, responsivas y fáciles de usar. Me apasiona aprender nuevas tecnologías y explorar cómo el desarrollo web, el <strong class="text-primary">Diseño UX</strong> y la <strong class="text-primary">inteligencia artificial</strong> pueden contribuir a construir <strong class="text-primary">experiencias digitales más útiles, accesibles y significativas</strong>.
                 </p>
               </div>
             </div>
