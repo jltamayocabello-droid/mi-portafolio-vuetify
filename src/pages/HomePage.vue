@@ -286,8 +286,7 @@
           </v-chip>
           <h2 class="text-h4 font-weight-bold">Formación & Experiencia</h2>
           <p class="text-body-1 text-medium-emphasis mt-2">
-            Un perfil interdisciplinario con sólida base en humanidades, gestión
-            del conocimiento y tecnología.
+            Perfil interdisciplinario que transforma información compleja en experiencias digitales claras, accesibles y centradas en el usuario.
           </p>
         </div>
 
