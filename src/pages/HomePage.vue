@@ -26,10 +26,10 @@
         Jorge <span class="text-primary">Tamayo</span>
       </h1>
       <p class="text-h5 text-sm-h4 font-weight-black mb-4 hero-title">
-        Historiador
+        Desarrollador Front-End
       </p>
       <p class="text-h5 text-sm-h4 font-weight-black mb-4 hero-title">
-        Gestión de Información | Desarrollo Front-End
+        Historiador con experiencia Gestión de Información
       </p>
       <v-divider class="my-4" color="primary" thickness="2" width="50%" />
 
@@ -117,20 +117,10 @@
               >
               <div class="text-justify">
                 <p class="text-body-1 text-medium-emphasis mb-4">
-                  Desarrollador Front-End especializado en el ecosistema
-                  <strong class="text-primary">Vue.js</strong> con un perfil
-                  altamente versátil. Mi sólida trayectoria en investigación y
-                  gestión documental me permite abordar problemas técnicos con
-                  rigor analítico, creando arquitecturas limpias y
-                  estructuradas.
+                  Soy Historiador y Desarrollador Front-End. Durante años trabajé gestionando información, documentación e investigación en bibliotecas universitarias, experiencia que me enseñó a analizar problemas de forma rigurosa, organizar información compleja y mantener una fuerte orientación hacia las necesidades de las personas.
                 </p>
                 <p class="text-body-1 text-medium-emphasis">
-                  Acostumbrado a la excelencia en el servicio al usuario, enfoco
-                  mis desarrollos en la empatía y la usabilidad. Soy un
-                  profesional en constante formación, comprometido con la
-                  <strong class="text-secondary">sobriedad digital</strong> y la
-                  creación de experiencias digitales elegantes y performantes
-                  que resuelvan necesidades reales con máxima eficiencia.
+                  Hoy canalizo esas habilidades en el desarrollo de aplicaciones web con Vue.js, JavaScript, Pinia y Vuetify, creando interfaces modernas, responsivas y fáciles de usar. Me apasiona aprender nuevas tecnologías y explorar cómo el desarrollo web, el Diseño UX y la inteligencia artificial pueden contribuir a construir experiencias digitales más útiles, accesibles y significativas.
                 </p>
               </div>
             </div>
