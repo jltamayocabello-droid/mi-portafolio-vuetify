@@ -726,6 +726,18 @@
   const courses = [
     {
       year: '2026',
+      title: 'Google AI Essentials V1',
+      provider: 'Google',
+      color: 'primary',
+    },
+    {
+      year: '2026',
+      title: 'Foundations of User Experience (UX) Design',
+      provider: 'Google',
+      color: 'primary',
+    },
+    {
+      year: '2026',
       title: 'Cursor con Python: desarrollo inteligente con IA',
       provider: 'Santander Open Academy',
       color: 'primary',
