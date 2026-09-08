@@ -555,13 +555,6 @@
         { name: 'Vercel', color: 'grey-lighten-1', icon: 'mdi-triangle' },
       ],
     },
-    {
-      name: 'CMS',
-      icon: 'mdi-wordpress',
-      skills: [
-        { name: 'WordPress', color: 'blue-darken-2', icon: 'mdi-wordpress' },
-      ],
-    },
   ]
 
   const librarySkills = [
@@ -585,7 +578,6 @@
 
   const aiSkills = [
     { name: 'Gemini', color: 'blue', icon: 'mdi-creation' },
-    { name: 'Perplexity', color: 'green', icon: 'mdi-head-lightbulb' },
     { name: 'Microsoft Copilot', color: 'pink', icon: 'mdi-robot-outline' },
     { name: 'Cursor', color: 'purple', icon: 'mdi-cursor-default-outline' },
     { name: 'Google Antigravity', color: 'primary', icon: 'mdi-robot' },
