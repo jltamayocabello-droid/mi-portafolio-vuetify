@@ -768,12 +768,6 @@
     },
     {
       year: '2025',
-      title: 'Inmersión IA con Google Gemini',
-      provider: 'Alura · Google',
-      color: 'secondary',
-    },
-    {
-      year: '2025',
       title: 'Fundamentos Esenciales de la Programación',
       provider: 'LinkedIn Learning',
       color: 'secondary',
@@ -785,35 +779,9 @@
       color: 'secondary',
     },
     {
-      year: '2024',
-      title:
-        'Introducción a la Ciencia Abierta: Una Aproximación a los Datos de Investigación y Publicación en Abierto',
-      provider: 'Bibliotecas de la Pontificia Universidad Católica de Chile',
-      color: 'grey',
-    },
-    {
       year: '2023',
       title: 'Nivel 2: Maximiza el potencial de Microsoft 365',
       provider: 'NoventiQ · Dirección de Transformación Digital, Pontificia Universidad Católica de Chile',
-      color: 'grey',
-    },
-    {
-      year: '2022',
-      title: 'Fundamentos de la Escritura ',
-      provider: 'Coursera · Tecnológico de Monterrey',
-      color: 'grey',
-    },
-    {
-      year: '2021',
-      title: 'MOOC: Diseño y Formulación de Proyectos para Bibliotecas',
-      provider: 'UNIACC',
-      color: 'grey',
-    },
-    {
-      year: '2021',
-      title: 'Taller de Historia Local y Memoria',
-      provider:
-        'Memorias de la Río, Núcleo de historia social popular y autoeducación popular, Universidad de Chile',
       color: 'grey',
     },
     {
