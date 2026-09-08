@@ -670,6 +670,36 @@
   const courses = [
     {
       year: '2026',
+      title: 'Fundamentos de ChatGPT',
+      provider: 'Santander Open Academy',
+      color: 'primary',
+    },
+    {
+      year: '2026',
+      title: 'Prompting responsable: maximiza la IA en tu negocio',
+      provider: 'Microsoft',
+      color: 'primary',
+    },
+    {
+      year: '2026',
+      title: 'Start the UX Design Process: Empathize, Define, and Ideate',
+      provider: 'Google',
+      color: 'primary',
+    },
+    {
+      year: '2026',
+      title: 'Build Wireframes and Low-Fidelity Prototypes',
+      provider: 'Google',
+      color: 'primary',
+    },
+    {
+      year: '2026',
+      title: 'Getting Started with Prompt Engineering',
+      provider: 'Skillsoft',
+      color: 'primary',
+    },
+    {
+      year: '2026',
       title: 'Google AI Essentials V1',
       provider: 'Google',
       color: 'primary',
