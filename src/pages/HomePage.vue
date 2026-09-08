@@ -660,46 +660,12 @@
       color: 'primary',
     },
     {
-      title: 'Asistente de Atención de Usuarios',
-      institution:
-        'Biblioteca Campus Oriente, Pontificia Universidad Católica de Chile',
-      description:
-        'Responsable de la gestión integral de circulación y atención al usuario, ejecutando procesos de préstamo, devolución y catalogación básica de colecciones.',
-      years: '2016–2017',
-      color: 'primary',
-    },
-    {
-      title: 'Edición de Textos y Transcripciones',
-      institution:
-        'Bernabé Santelices (Premio Nacional de Ciencias Naturales 2012)',
-      description:
-        'Preparación y transcripción de textos académicos siguiendo normativas internacionales (ISO/APA). Se recopilan, transcriben, editan y encuadernan investigaciones para la conformación de portafolio académico.',
-      years: '2016–2017',
-      color: 'primary',
-    },
-    {
       title: 'Ayudante de Investigación',
       institution: 'Programa de Historia de las Ideas Políticas en Chile, UDP',
       description:
         'Asistente de Investigación en el área de historia de las ideas políticas, responsable del análisis de la evolución institucional y debates públicos de los siglos XIX y XX. Ejecución de tareas de recopilación, sistematización de fuentes primarias y análisis cualitativo/cuantitativo para la comprensión del pensamiento político y la esfera pública chilena.',
       years: '2010–2012',
       color: 'primary',
-    },
-    {
-      title: 'Documentación de Colecciones Audiovisuales',
-      institution: 'Museo de la Educación Gabriela Mistral (MEGM)',
-      description:
-        'Documentación de colecciones del fondo audiovisual donado por la Cineteca Nacional a MEGM. Tarea realizada en el contexto de la Licenciatura en Historia.',
-      years: 'Mar–Jun 2011',
-      color: 'grey',
-    },
-    {
-      title: 'Documentación y Catalogación de Fotografías',
-      institution: 'Centro Nacional Fotográfico (CENFOTO), UDP',
-      description:
-        'Documentación y catalogación de fotografías y álbumes del siglo XIX comprados por UDP y conservadas en comodato en CENFOTO. Tarea realizada en el contexto de la Licenciatura en Historia.',
-      years: 'Jul–Dic 2010',
-      color: 'grey',
     },
   ]
 
